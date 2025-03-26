@@ -1,0 +1,145 @@
+.AboutCom-2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecebebc1;
+    padding: 0 20px;
+  }
+  
+  .AboutCom-2-card {
+    background: linear-gradient(to right, rgba(0, 0, 139, 0.174),rgba(255, 255, 255, 0.452), rgba(139, 0, 0, 0.196) );
+    /* box-shadow: 0 1px 10px rgba(56, 56, 56, 0.089); */
+    padding: 30px;
+    max-width: 55vw;
+    min-height: 56vw;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 120px 0;
+  }
+  
+  .AboutCom-2-profile-image {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    top: 8%;
+    left: 3%;
+  }
+  
+  .AboutCom-2-profile-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 3px 0 8px rgba(0, 0, 0, 0.489);
+  }
+
+
+  .AboutCom-2-content{
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    top: 1.2%;
+    position: absolute;
+    right: -2%;
+  }
+
+  .img-content-aboutsection{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .AboutCom-2-content h2 {
+    margin-top: 6vw;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 2.4vw;
+    font-weight: bold;
+  }
+
+  .AboutCom-2-content  h3{
+    margin-top: 20px;
+    text-align: left;
+    color: gray;
+  }
+
+  .AboutCom-2-content  h4{
+    color: darkred;
+    margin-top: 10px;
+    font-size: 1.3vw;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+  
+  .AboutCom-2-content p {
+    color: #4a5568;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 1vw;
+    margin-top: 1vw;
+  }
+  
+  .AboutCom-2-learn-more {
+    width: 12vw;
+    margin: 1.3vw 0;
+    padding: 1vw 1.7vw;
+    background:#2C3192;
+    color: white;
+    border: none;
+    border-radius: 8vw;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .AboutCom-2-learn-more:hover {
+    background:darkblue;
+  }
+  
+  .AboutCom-2-info-grid {
+    position: absolute;
+    display: flex;
+    left: -13%;
+    bottom: 5%;
+    justify-content: space-between;
+    margin-top: 2vw;
+  }
+  
+  .AboutCom-2-info-box {
+   min-width: 20vw;
+    margin: 5px;
+    padding: 2vw;
+    color: white;
+    font-weight: bold;
+  }
+
+  .AboutCom-2-info-box h3{
+    text-align: left;
+    font-size: 1.6vw;
+    margin-bottom: 1vw;
+  }
+
+  .AboutCom-2-info-box p{
+    line-height: 1.8;
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  
+  .box1 {
+    background: rgba(0, 0, 139, 0.733);
+  }
+  
+  .box2 {
+    background: #f0f0f0;
+    color: black;
+  }
+  
+  .box3 {
+    background:rgba(139, 0, 0, 0.767);
+  }
+  

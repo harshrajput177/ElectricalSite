@@ -1,0 +1,113 @@
+/* HeroSection.css */
+
+.LandingCom2-hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #065f46; /* Fallback color */
+  overflow: hidden;
+}
+
+.LandingCom2-hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.LandingCom2-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0, 0, 122, 0.9) 43%, rgba(255, 255, 255, 0));
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+/* Content Styling */
+.LandingCom2-content {
+  max-width: 49vw;
+  color: white;
+}
+
+.LandingCom2-title {
+  font-size: 2.7vw;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.LandingCom2-highlight {
+  padding: 0.2rem;
+  color: white;
+}
+
+.LandingCom2-description {
+  font-size: 1.2vw;
+  letter-spacing: 2px;
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+}
+
+.LandingCom2-cta-button {
+  background-color: white;
+  color: black;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.LandingCom2-cta-button:hover {
+  background-color: darkred;
+  color: white;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .LandingCom2-hero-container {
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+  }
+
+  .LandingCom2-overlay {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background: rgba(0, 0, 122, 0.8); /* Solid background for better readability */
+  }
+
+  .LandingCom2-content {
+      max-width: 90%;
+      text-align: center;
+  }
+
+  .LandingCom2-title {
+      font-size: 6vw;
+      line-height: 1.5;
+  }
+
+  .LandingCom2-description {
+      font-size: 3.5vw;
+      line-height: 1.7;
+  }
+
+  .LandingCom2-cta-button {
+      font-size: 1.2rem;
+      padding: 0.8rem 2rem;
+  }
+}
+
+  

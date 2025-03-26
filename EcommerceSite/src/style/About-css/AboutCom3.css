@@ -1,0 +1,122 @@
+.LandingCom5-container {
+    text-align: center;
+    padding:  5vw 8vw;
+    background: linear-gradient(to right, rgba(0, 0, 139, 0.174),rgba(255, 255, 255, 0.452), rgba(139, 0, 0, 0.196) );
+    margin-bottom: 90px;
+  }
+
+  .LandingCom5-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .LandingCom5-Paragrapgh{
+    text-align: left;
+    width: 45%;
+  }
+
+  .LandingCom5-All-ul{
+    text-align: left;
+    width: 30%;
+  }
+  
+  .LandingCom5-heading {
+    font-size: 2.1vw;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .LandingCom5-description, .LandingCom5-highlight {
+    font-size: 1.2vw;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .LandingCom5-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .LandingCom5-list li {
+    font-size: 1.2vw;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 1vw;
+  }
+  
+  .LandingCom5-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .LandingCom5-card {
+    border: 1px solid #686767;
+    padding: 2.4vw;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .LandingCom5-icon {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .LandingCom5-container {
+      padding: 30px 5vw;
+      width: 89%;
+      /* max-width: 95vw; */
+    }
+
+    .LandingCom5-Paragrapgh{
+      text-align: left;
+      width: 100%;
+    }
+
+    .LandingCom5-All-ul{
+      text-align: left;
+      width: 100%;
+    }
+
+    .LandingCom5-cards {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .LandingCom5-content{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .LandingCom5-heading {
+      font-size: 1.8rem;
+    }
+  
+    .LandingCom5-description, .LandingCom5-highlight, .LandingCom5-list li {
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    .LandingCom5-card {
+      width: 86%;
+    }
+    
+   
+  }
+  
+  @media (max-width: 480px) {
+    .LandingCom5-heading {
+      font-size: 1.5rem;
+    }
+    
+    .LandingCom5-card {
+      width: 90%;
+    }
+  }

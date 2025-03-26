@@ -1,0 +1,118 @@
+/* Features Section */
+.LandingCom8-features-section {
+  text-align: center;
+  background-color: rgba(0, 0, 139, 0.043);
+  padding: 4vw 20px;
+}
+
+/* Heading and Title */
+.LandingCom8-features-heading {
+  color: darkblue;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.LandingCom8-features-title {
+  color: darkblue;
+  font-size: 2.4vw;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Features Container */
+.LandingCom8-features-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Feature Card */
+.LandingCom8-feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 18vw;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.LandingCom8-feature-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1vw;
+}
+
+.LandingCom8-feature-title {
+  color: darkblue;
+  font-size: 1.1vw;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.LandingCom8-feature-description {
+  color: #666;
+  font-size: 0.9vw;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.LandingCom8-feature-button {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.LandingCom8-feature-button:hover {
+  background-color: rgba(33, 33, 135, 0.874);
+}
+
+/* Image Credit */
+.LandingCom8-image-credit {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.LandingCom8-image-credit a {
+  color: #2d5a4a;
+  text-decoration: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .LandingCom8-features-title {
+      font-size: 6vw;
+  }
+
+  .LandingCom8-features-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .LandingCom8-feature-card {
+      width: 90%;
+      padding: 5vw;
+  }
+
+  .LandingCom8-feature-title {
+      font-size: 4.5vw;
+  }
+
+  .LandingCom8-feature-description {
+      font-size: 3.5vw;
+  }
+
+  .LandingCom8-feature-button {
+      padding: 12px 24px;
+      font-size: 4vw;
+  }
+}
+
+  

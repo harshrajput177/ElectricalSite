@@ -1,0 +1,83 @@
+.ServicesCom3-property-container {
+    background-color: #f8f8f8d7;
+    padding: 10px  8vw;
+  }
+
+  .ServicesCom3-property-container h1{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2.7vw;
+    color: darkblue;
+  }
+
+  .ServicesCom3-line{
+    height: 3px;
+    width: 36vw;
+    background-color: darkred;
+  }
+  
+  .ServicesCom3-property-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    margin-bottom: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .ServicesCom3-property-section {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .ServicesCom3-property-section.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+  
+  .ServicesCom3-property-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .ServicesCom3-property-text h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .ServicesCom3-property-text p {
+    color: #4b5563;
+    margin-bottom: 16px;
+  }
+  
+  .ServicesCom3-property-button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .ServicesCom3-property-button:hover {
+    background-color: #4338ca;
+  }
+  
+  .ServicesCom3-property-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .ServicesCom3-property-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+  }

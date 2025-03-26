@@ -1,0 +1,183 @@
+.Home5-facilities-contains {
+    width: 100%;
+    font-family: 'DegularDemoMedium';
+    text-align: center;
+    padding: 5vw 7vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column; /* Ensure all elements stack vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: white;
+    box-sizing: border-box; /* Include padding in width calculations */
+  }
+  
+  .Home5-facilities-title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    color: #13187B;
+    font: 800;
+    letter-spacing: 3px;
+    font-size: 2.7vw; /* Adjust for better visibility */
+  }
+  
+  .Home5-school-name {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* School name color */
+  }
+  
+  .Home5-facilities-grid {
+    width: 100%; /* Ensure grid spans the full width of its parent */
+    min-height: 35vw;
+    max-width: 82.5vw; /* Limit grid width for larger screens */
+    margin: 0 auto; /* Center the grid horizontally */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19vw, 1fr)); /* Auto-fit grid items */
+    gap: 20px; /* Space between grid items */
+    box-sizing: border-box; /* Include padding/margin in width calculations */
+  }
+  
+  .Home5-facility-item {
+    font-family: 'PoppinsSemibold';
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Home5-facility-button{
+    margin-top: 35px;
+  padding: 10px 25px ;
+  background-color: #13187B;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  }
+  
+  .Home5-facility-button:hover{
+    background-color: #FFC107;
+    color: black;
+  }
+  
+  .Home5-facility-image {
+    width: 100%;
+    height: 21vw;
+    object-fit: cover; /* Ensure image fits within the container */
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .Home5-facility-title {
+    width: 90%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 16px rgb(0, 0, 0); 
+  }
+  
+  .Home5-facility-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 49, 145, 0.9); 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Home5-facility-title-overlay-D1 {
+    padding:  10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7vw;
+    text-align: left;
+  }
+  
+  .Home5-facility-title-overlay-D2 {
+    padding: 10px;
+    text-align: left;
+    margin-top: 30px;
+    color: white;
+    font-size: 1.2vw;
+    letter-spacing: 1.6px;
+    line-height: 1.9;
+  }
+
+  .home5-h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1.6vw 0;
+    line-height: 1.7;
+    letter-spacing: 1.2px;
+  }
+  
+  .Home5-facility-item:hover .Home5-facility-overlay {
+    transform: translateY(0); /* Show overlay on hover */
+  }
+  
+  .Home5-facility-item:hover .Home5-facility-image {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablets */
+  @media (max-width: 1024px) {
+    .Home5-facilities-grid {
+      gap: 15px; /* Reduce spacing */
+    }
+  
+    .Home5-facilities-title {
+      font-size: 1.5rem; /* Adjust title size */
+    }
+  
+    .Home5-facility-image {
+      height: 180px; /* Adjust image size */
+    }
+  }
+  
+  /* Mobile Screens */
+  @media (max-width: 768px) {
+    .Home5-facilities-grid {
+      grid-template-columns: 1fr; /* Single column */
+    }
+  
+    .Home5-facility-image {
+      height: 160px; /* Further reduce image height */
+    }
+  
+    .Home5-facility-title {
+      font-size: 1rem; /* Adjust font size */
+    }
+  }
+  
+  /* Extra Small Screens */
+  @media (max-width: 480px) {
+    .Home5-facilities-title {
+      font-size: 1.2rem; /* Smaller title font */
+    }
+  
+    .Home5-facility-title-overlay-D1 {
+      font-size: 0.9rem; /* Smaller overlay font */
+    }
+  
+    
+  .Home5-facility-title-overlay-D2 {
+    padding: 5px  10px;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  
+    .Home5-facility-image {
+      height: 150px; /* Reduce image height */
+    }
+  }

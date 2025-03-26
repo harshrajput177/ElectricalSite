@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PoppinsMedium', sans-serif;
+  }
+  
+  /* Header */
+  .Facilities-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .Facilities-header h2 {
+    font-size: 2.3rem;
+    color: #2C3192;
+  }
+  
+  .Facilities-header p {
+    max-width: 108vw;
+    font-size: 1.2rem;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  
+  .LabPage-app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 100px;
+  }
+  
+  .LabPage-section-card {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    scroll-margin-top: 120px;
+    gap: 4%;
+    padding: 20px;
+  }
+  
+  .LabPage-section-card{
+    flex-direction: row;
+  }
+  
+  .LabPage-section-card img {
+    width: 100%;
+  }
+  
+  .LabPage-text-content {
+    flex: 1;
+  }
+  
+  .LabPage-text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .LabPage-text-content p {
+    line-height: 2;
+     width: 100%;
+    font-size: 1.3vw;
+    color: #010101;
+    letter-spacing: 2px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .LabPage-download-btn {
+    font-family: 'PoppinsSemiBold';
+    padding: 12px 15px;
+    background-color: #2C3192;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .LabPage-download-btn:hover {
+    background-color: #003b8b;
+  }
+  
+  .LabPage-section-image {
+    flex: 1;
+    width: 100%;
+    max-width: 28vw;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .CBSE-IMAGE-SECTION-Contains {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .LabPage-corner-border {
+    position: absolute;
+    top: -3px;
+    right: -1px;
+    width: 200px;
+    height: 190px;
+    border: 9px solid #2C3192;
+    border-top: none;
+    border-left: none;
+    transform: rotateX(180deg);
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  /* Mobile View Styles */
+  @media screen and (max-width: 768px) {
+    .LabPage-app-container {
+      padding: 20px;
+    }
+
+    .Facilities-header p {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      text-align: justify;
+    }
+  
+    .LabPage-section-card {
+      flex-direction: column;
+      gap: 20px;
+      text-align: left;
+    }
+  
+    .LabPage-text-content {
+      text-align: left;
+    }
+  
+    .LabPage-text-content h2 {
+      font-size: 20px;
+    }
+  
+    .LabPage-text-content p {
+      font-size: 14px;
+    }
+  
+    .LabPage-download-btn {
+      font-size: 14px;
+    }
+  
+    .LabPage-section-image {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .LabPage-corner-border {
+      display: none; /* Optional: Hide the corner border for better alignment */
+    }
+    
+    .LabPage-section-card.LabPage-reverse  {
+      flex-direction:column;
+    }
+  
+    .LabPage-download-btn {
+      padding: 9px 12px;
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+    
+  }
+  
+  
+  
+  
+  
+  
+    

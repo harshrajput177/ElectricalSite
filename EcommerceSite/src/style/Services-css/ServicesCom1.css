@@ -1,0 +1,61 @@
+.Services-container_2 {
+  position: relative;
+  width: 100%;
+  height: 40vw; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Services-container_2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to right, rgba(61, 61, 61, 0.308), rgba(72, 72, 72, 0.176)); /* Adjust opacity as needed */
+  z-index: 2; /* Above the image, below the text */
+}
+
+.Services-container_2 h1 {
+  position: absolute;
+  font-size: 3vw;
+  color: white;
+  z-index: 100;
+  letter-spacing: 5px;
+  bottom: 90px;
+}
+
+.Servicesline {
+  z-index: 100;
+  position: absolute;
+  width: 13vw;
+  height: 3px;
+  color: white;
+  bottom: 80px;
+  background-color: white;
+}
+
+.Services-hero-img_2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure image is below content */
+}
+
+@media (max-width: 768px) {
+  .Services-container_2 {
+      position: relative;
+      width: 100%;
+      height: 90vw;
+  }
+
+  .Services-hero-img_2 {
+      width: 100%;
+      height: 90vw;
+  }
+}
