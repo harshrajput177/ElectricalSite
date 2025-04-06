@@ -7,30 +7,30 @@ import img4 from '../../image/premium_photo-1678766819153-b3f7307c5127.jpeg'
 
 const services = [
   {
-    title: "Listing and Advertising Your Property",
+    title: "COMMERCIAL/RESIDENTIAL WIRING",
     description:
-      "We use our extensive network and marketing expertise to list and advertise your property to a wide audience. From professional photography and virtual tours to targeted online and offline advertising, we use a variety of strategies to attract potential buyers and showcase your property in the best possible light.",
+      "RTN Next-Era provide expert electrical wiring services for both commercial and residential buildings, ensuring safety, efficiency, and compliance with industry standards.",
     image: img1,
     alt: "Keys on blueprint",
   },
   {
-    title: "Showing Your Property to Potential Buyers",
+    title: "LT PANEL SERVICING",
     description:
-      "Our team is available to schedule and conduct property showings for interested buyers. We understand that your time is valuable, so we work with your schedule to ensure that showings are convenient for you while still providing potential buyers with the best possible experience.",
+      "RTN Next-Era specialize in servicing LT panels to ensure reliable electrical distribution. Our services include maintenance, repairs, and upgrades, enhancing panel efficiency and safety for commercial and industrial clients",
     image: img2,
     alt: "House in hand",
   },
   {
-    title: "Negotiation and Closing Assistance",
+    title: "PLC PROGRAMMING",
     description:
-      "We assist you in negotiating with potential buyers to get the best possible deal. From handling paperwork to finalizing the transaction, we ensure a smooth and hassle-free closing process.",
+      "RTN Next-Era specialize in PLC programming for industrial automation solutions. Our expertise includes designing, coding, and optimizing PLC systems for efficient control and monitoring of manufacturing processes.",
     image: img3,
     alt: "Negotiation process",
   },
   {
-    title: "Post-Sale Support and Guidance",
+    title: "ANY KIND OF ELECTRICAL APPLIANCES INSTALLATION ",
     description:
-      "Our services don’t just stop at the sale. We provide post-sale support, helping you with moving assistance, legal paperwork, and any other real estate-related concerns.",
+      "RTN Next-Era provide expert installation services for a wide range of electrical appliances. From lighting fixtures to complex machinery, our services ensure safe, efficient, and compliant installations tailored to residential, commercial, and industrial needs.",
     image: img4,
     alt: "Post-sale support",
   },

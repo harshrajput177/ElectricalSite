@@ -143,3 +143,88 @@
     background:rgba(139, 0, 0, 0.767);
   }
   
+
+  @media screen and (max-width: 768px) {
+    .AboutCom-2-container {
+      padding: 10px;
+      flex-direction: column;
+    }
+  
+    .AboutCom-2-card {
+      flex-direction: column;
+      max-width: 100%;
+      min-height: auto;
+      margin: 60px 0;
+      padding: 20px 10px;
+    }
+  
+    .AboutCom-2-profile-image {
+      position: static;
+      width: 45vw;
+      height: 35vw;
+      margin: 0 auto;
+    }
+  
+    .AboutCom-2-content {
+      position: static;
+      width: 100%;
+      margin-top: 20px;
+      align-items: end;
+    }
+  
+    .AboutCom-2-content h2 {
+      font-size: 5vw;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .AboutCom-2-content h3,
+    .AboutCom-2-content h4,
+    .AboutCom-2-content p {
+      text-align: right;
+    }
+  
+    .AboutCom-2-content h3 {
+      font-size: 4vw;
+    }
+  
+    .AboutCom-2-content h4 {
+      font-size: 3.5vw;
+    }
+  
+    .AboutCom-2-content p {
+      font-size: 3.2vw;
+    }
+  
+    .AboutCom-2-learn-more {
+      font-size: 3vw;
+      width: 50%;
+      padding: 2vw 4vw;
+      margin: 20px;
+      display: block;
+    }
+  
+    .AboutCom-2-info-grid {
+      position: static;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .AboutCom-2-info-box {
+      width: 90%;
+      margin: 10px 0;
+      padding: 5vw;
+    }
+  
+    .AboutCom-2-info-box h3 {
+      font-size: 4vw;
+      text-align: center;
+    }
+  
+    .AboutCom-2-info-box p {
+      font-size: 3vw;
+      text-align: center;
+    }
+  }
+  

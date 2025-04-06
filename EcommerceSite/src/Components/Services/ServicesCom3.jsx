@@ -1,37 +1,46 @@
 import React from "react";
 import "../../style/Services-css/ServicesCom3.css";
-// import img1 from '../../image'
-// import img2 from '../../image'
-// import img3 from '../../image'
-// import img4 from '../../image'
+import img1 from '../../image/socomec-power-monitors-5x7-removebg-preview.png'
+import img2 from '../../image/ac-type-2-ev-charger-panasonic.jpg'
+import img3 from '../../image/12108_ip_67_socket_outlet_straight_5_pin-300x300.jpeg'
+import img4 from '../../image/Screenshot 2025-04-06 212311.png'
+import img5 from '../../image/1_eumNIzPYyE8X7On5iM02Hw.jpg'
 
 const services = [
   {
-    title: "Listing and Advertising Your Property",
+    title: "BASIC METERS/MFM/POWER ANALYZERS",
     description:
-      "We use our extensive network and marketing expertise to list and advertise your property to a wide audience. From professional photography and virtual tours to targeted online and offline advertising, we use a variety of strategies to attract potential buyers and showcase your property in the best possible light.",
-      image: "/images/property-keys.jpg",
+      "RTN Next-Era offer basic meters for voltage, current, and Frequency measurement. Our MFM meters provide comprehensive data on power factor, harmonics, and more. Power analyzers offer detailed insights into power quality, transient events, and energy consumption for industrial applications.",
+      image: img1,
     alt: "Keys on blueprint",
   },
   {
-    title: "Showing Your Property to Potential Buyers",
+    title: "AC/DC EV CHARGER",
     description:
-      "Our team is available to schedule and conduct property showings for interested buyers. We understand that your time is valuable, so we work with your schedule to ensure that showings are convenient for you while still providing potential buyers with the best possible experience.",
-      image: "/images/property-keys.jpg",
+      "RTN Next-Era offers a total EV charging solution from compact, high quality AC wall boxes, reliable DC fast charging stations with robust connectivity, to innovative on-demand electric vehicle charging systems, we deploy infrastructure that meet the needs of the next generation of smarter mobility.",
+      image: img2,
     alt: "House in hand",
   },
   {
-    title: "Negotiation and Closing Assistance",
+    title: "INDUSTRIAL and PLUG & SOCKET",
     description:
-      "We assist you in negotiating with potential buyers to get the best possible deal. From handling paperwork to finalizing the transaction, we ensure a smooth and hassle-free closing process.",
-      image: "/images/property-keys.jpg",
+      "RTN Next-Era provide robust industrial plugs and sockets designed for reliable power connections in demanding environments. Our products offer high durability, safety features, and compatibility with various voltage and current ratings, ensuring efficient operations in industrial settings.",
+      image: img3,
     alt: "Negotiation process",
   },
   {
-    title: "Post-Sale Support and Guidance",
+    title: "CABLES & SWITCHGEARS",
     description:
-      "Our services don’t just stop at the sale. We provide post-sale support, helping you with moving assistance, legal paperwork, and any other real estate-related concerns.",
-      image: "/images/property-keys.jpg",
+      "RTN Next-Era offer high-quality wires and reliable switchgears tailored for industrial and commercial applications. Our products ensure efficient electrical distribution, safety, and reliability, meeting diverse needs for power transmission and control in various environments",
+      image: img4,
+    alt: "Post-sale support",
+  },
+
+  {
+    title: "SWITCHES/FAN/ LIGHTS (CONSUMER, RETAIL & HOSPITALITY, INDUSTRIAL LIGHTS)",
+    description:
+      "RTN Next-ERA is a premier trader of high-quality lighting & electrical solutions,specializing in consumer, commercial, and industrial lighting as well as a wide range of switches and fans. We partner with leading manufacturers to offer stylish and energy-efficient products tailored to diverse needs.",
+      image: img5,
     alt: "Post-sale support",
   },
 ];
