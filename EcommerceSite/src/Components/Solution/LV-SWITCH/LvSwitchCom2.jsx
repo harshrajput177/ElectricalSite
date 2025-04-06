@@ -1,11 +1,12 @@
-import '../../../style/Solution-css/Pulgs&Socket-css/'; 
+import '../../Styles/Academics-CSS/AcademicsC7.css'; // Styling file ka import
 import AcademicC71 from '../../image/IndependentDay.svg';
 import AcademicC72 from '../../image/s4.jpg';
 import AcademicC73 from '../../image/Ind2.png';
-
+import useScrollToSection from "../Hook/CustomHook2";
 
 const AcademicsC7 = () => {
  
+    useScrollToSection();
     
   return (
     <div className="AcademicsC7-events">

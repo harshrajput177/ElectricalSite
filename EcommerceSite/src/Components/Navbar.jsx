@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
@@ -11,18 +11,19 @@ import logo from '../image/Screenshot_2025-03-07_204136-removebg-preview.png';
 const Navbar = () => {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
   const [isSolutionOpen, setIsSolutionOpen] = useState(false);
-  const [isNestedDropdownOpen, setIsNestedDropdownOpen] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Toggle Mobile Menu
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
-  // Close Menu on Link Click (Mobile)
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  useEffect(() => {
+    document.body.style.overflow = isMobileMenuOpen ? 'hidden' : 'auto';
+  }, [isMobileMenuOpen]);
 
   return (
     <nav className="navbar-flower">
@@ -31,63 +32,56 @@ const Navbar = () => {
         <img src={logo} alt="Logo" />
       </div>
 
-      {/* Right Section (Icons + Menu Button) */}
-      <div className="right-section">
-     
-
-        {/* Menu Toggle Button */}
-        <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
-          {isMobileMenuOpen ? <CloseIcon /> : <MenuIcon />}
-        </div>
-      </div>
-
-      {/* Navigation Menu */}
+      {/* Desktop Menu */}
       <ul className={`menu-flower ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
         <li><Link to="/" onClick={closeMobileMenu}>Home</Link></li>
 
-        {/* Products Dropdown */}
-        <li className="dropdown-flower"
+        <li
+          className="dropdown-flower"
           onMouseEnter={() => setIsProductsOpen(true)}
-          onMouseLeave={() => setTimeout(() => setIsProductsOpen(false), 200)} // Delay to prevent flickering
+          onMouseLeave={() => setTimeout(() => setIsProductsOpen(false), 200)}
         >
           <Link to="/Products" onClick={closeMobileMenu}>Products</Link>
           {isProductsOpen && (
-            <ul className="dropdown-menu-flower">
-              <li className="nested-dropdown"
-                onMouseEnter={() => setIsNestedDropdownOpen('ev')}
-                onMouseLeave={() => setTimeout(() => setIsNestedDropdownOpen(null), 200)}
-              >
-                <span>EV Solution</span>
-                {isNestedDropdownOpen === 'ev' && (
-                  <ul className="nested-dropdown-menu">
-                    <li><Link to="/IndustrialPlugSockets" onClick={closeMobileMenu}>AC EV Smart Socket</Link></li>
-                    <li><Link to="/PowerFactorCorrection" onClick={closeMobileMenu}>AC EV Charger</Link></li>
-                    <li><Link to="/PowerQuality" onClick={closeMobileMenu}>DC EV Charger</Link></li>
-                    <li><Link to="/LVSwitchboards" onClick={closeMobileMenu}>ADC Combination Charger</Link></li>
-                  </ul>
-                )}
-              </li>
-
-              <li className="nested-dropdown"
-                onMouseEnter={() => setIsNestedDropdownOpen('industrial')}
-                onMouseLeave={() => setTimeout(() => setIsNestedDropdownOpen(null), 200)}
-              >
-                <span>Industrial Plug & Sockets</span>
-                {isNestedDropdownOpen === 'industrial' && (
-                  <ul className="nested-dropdown-menu">
-                    <li><Link to="/SurfaceMounting" onClick={closeMobileMenu}>Surface Mounting</Link></li>
-                    <li><Link to="/PanelMounting" onClick={closeMobileMenu}>Panel Mounting</Link></li>
-                    <li><Link to="/Plugs" onClick={closeMobileMenu}>Plugs</Link></li>
-                    <li><Link to="/GTConnector" onClick={closeMobileMenu}>GT Connector</Link></li>
-                  </ul>
-                )}
-              </li>
-            </ul>
+            <div className="mega-menu">
+              <div className="mega-column">
+                <h4>EV SOLUTION</h4>
+                <Link to="/ev-smart-socket" onClick={closeMobileMenu}>AC EV Smart Socket</Link>
+                <Link to="/ac-ev-charger" onClick={closeMobileMenu}>AC EV Charger</Link>
+                <Link to="/dc-ev-charger" onClick={closeMobileMenu}>DC EV Charger</Link>
+                <Link to="/adc-combo-charger" onClick={closeMobileMenu}>ADC Combination Charger</Link>
+              </div>
+              <div className="mega-column">
+                <h4>INDUSTRIAL PLUG & SOCKETS</h4>
+                <Link to="/surface-mounting" onClick={closeMobileMenu}>Surface Mounting</Link>
+                <Link to="/panel-mounting" onClick={closeMobileMenu}>Panel Mounting</Link>
+                <Link to="/plugs" onClick={closeMobileMenu}>Plugs</Link>
+                <Link to="/gt-connector" onClick={closeMobileMenu}>GT Connector</Link>
+                <Link to="/surface-with-mcb" onClick={closeMobileMenu}>Surface Mounting with MCB</Link>
+                <Link to="/ac-outlet" onClick={closeMobileMenu}>Industrial AC Outlet</Link>
+                <Link to="/variabox" onClick={closeMobileMenu}>Variabox</Link>
+                <Link to="/junction-boxes" onClick={closeMobileMenu}>Junction Boxes</Link>
+              </div>
+              <div className="mega-column">
+                <h4>SMART ENERGY MANAGEMENT</h4>
+                <Link to="/digital-meters" onClick={closeMobileMenu}>Digital Panel Meters</Link>
+                <Link to="/multi-function-meters" onClick={closeMobileMenu}>Multi Function Meters</Link>
+                <Link to="/power-analyzers" onClick={closeMobileMenu}>Power Analyzers</Link>
+                <Link to="/prepaid-meter" onClick={closeMobileMenu}>Prepaid Meter</Link>
+              </div>
+              <div className="mega-column">
+                <h4>POWER FACTOR CORRECTION</h4>
+                <Link to="/pf-controller" onClick={closeMobileMenu}>Power Factor Controller</Link>
+                <Link to="/capacitors" onClick={closeMobileMenu}>Power Capacitors</Link>
+                <Link to="/improvements" onClick={closeMobileMenu}>Power Factor Improvements</Link>
+                <Link to="/thyristors" onClick={closeMobileMenu}>Thyristors</Link>
+              </div>
+            </div>
           )}
         </li>
 
-        {/* Solution Dropdown */}
-        <li className="dropdown-flower"
+        <li
+          className="dropdown-flower"
           onMouseEnter={() => setIsSolutionOpen(true)}
           onMouseLeave={() => setTimeout(() => setIsSolutionOpen(false), 200)}
         >
@@ -102,19 +96,67 @@ const Navbar = () => {
           )}
         </li>
 
-        {/* Other Links */}
         <li><Link to="/Services" onClick={closeMobileMenu}>Services</Link></li>
         <li><Link to="/about" onClick={closeMobileMenu}>About Us</Link></li>
         <li><Link to="/resources" onClick={closeMobileMenu}>Resources</Link></li>
         <li><Link to="/contact" onClick={closeMobileMenu}>Contact Us</Link></li>
       </ul>
 
-         {/* Icons */}
-         <div className="icons-flower">
-          <SearchOutlinedIcon className="Flower-icon" />
-          <ShoppingCartIcon className="Flower-icon" />
-          <PersonOutlinedIcon className="Flower-icon" />
+      {/* Right Section */}
+      <div className="right-section">
+        <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
+          {isMobileMenuOpen ? <CloseIcon /> : <MenuIcon  className='menuIcons'/>}
         </div>
+      </div>
+
+      {/* Icons */}
+      <div className="icons-flower">
+        <SearchOutlinedIcon className="Flower-icon" />
+        <ShoppingCartIcon className="Flower-icon" />
+        <PersonOutlinedIcon className="Flower-icon" />
+      </div>
+
+      {/* Mobile Sidebar */}
+      <div className={`mobile-sidebar ${isMobileMenuOpen ? 'open' : ''}`}>
+        <div className="mobile-sidebar-header">
+          <CloseIcon className="close-icon" onClick={closeMobileMenu} />
+        </div>
+        <ul className="mobile-menu-list">
+          <li><Link to="/" onClick={closeMobileMenu}>Home</Link></li>
+
+          <li>
+            <details>
+              <summary>Products</summary>
+              <ul>
+                <li><strong>EV SOLUTION</strong></li>
+                <li><Link to="/ev-smart-socket" onClick={closeMobileMenu}>AC EV Smart Socket</Link></li>
+                <li><Link to="/ac-ev-charger" onClick={closeMobileMenu}>AC EV Charger</Link></li>
+                <li><Link to="/dc-ev-charger" onClick={closeMobileMenu}>DC EV Charger</Link></li>
+                <li><Link to="/adc-combo-charger" onClick={closeMobileMenu}>ADC Combination Charger</Link></li>
+                <li><strong>SMART ENERGY</strong></li>
+                <li><Link to="/digital-meters" onClick={closeMobileMenu}>Digital Panel Meters</Link></li>
+              </ul>
+            </details>
+          </li>
+
+          <li>
+            <details>
+              <summary>Solution</summary>
+              <ul>
+                <li><Link to="/PowerFactorCorrection" onClick={closeMobileMenu}>Power Factor Correction</Link></li>
+                <li><Link to="/PowerQuality" onClick={closeMobileMenu}>Power Quality</Link></li>
+                <li><Link to="/LVSwitchboards" onClick={closeMobileMenu}>LV Switchboards</Link></li>
+                <li><Link to="/EnergyManagement" onClick={closeMobileMenu}>Energy Management System</Link></li>
+              </ul>
+            </details>
+          </li>
+
+          <li><Link to="/Services" onClick={closeMobileMenu}>Services</Link></li>
+          <li><Link to="/about" onClick={closeMobileMenu}>About Us</Link></li>
+          <li><Link to="/resources" onClick={closeMobileMenu}>Resources</Link></li>
+          <li><Link to="/contact" onClick={closeMobileMenu}>Contact Us</Link></li>
+        </ul>
+      </div>
     </nav>
   );
 };

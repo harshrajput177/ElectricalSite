@@ -1,10 +1,10 @@
-import '../../../style/Solution-css/Pulgs&Socket-css/'; 
-import AcademicC71 from '../../image/IndependentDay.svg';
-import AcademicC72 from '../../image/s4.jpg';
-import AcademicC73 from '../../image/Ind2.png';
+import '../../../style/Solution-css/S-PowerFactor-css/'; // Styling file ka import
+import C71 from '../../image/IndependentDay.svg';
+import C72 from '../../image/s4.jpg';
+import C73 from '../../image/Ind2.png';
 
 
-const AcademicsC7 = () => {
+const PowerFactorC2 = () => {
  
     
   return (
@@ -25,14 +25,14 @@ const AcademicsC7 = () => {
       </p>
 
       <div className="AcademicsC7-event-images">
-        <img src={AcademicC71} alt="Students performing in rows" className="AcademicsC7-event-img" />
+        <img src={C71} alt="Students performing in rows" className="AcademicsC7-event-img" />
       </div>
       <div  className='AcademicsC7-lower-image-C7'>
-      <img src={AcademicC72} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={AcademicC73} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+      <img src={C72} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
+      <img src={C73} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
       </div>
     </div>
   );
 };
 
-export default AcademicsC7;
+export default PowerFactorC2;
