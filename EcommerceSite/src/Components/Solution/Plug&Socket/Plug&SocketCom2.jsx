@@ -1,4 +1,4 @@
-import '../../../style/Solution-css/Pulgs&Socket-css/'; 
+import '../../../style/Solution-css/Pulgs&Socket-css/Pulgs&SocketCom2.css'; 
 import AcademicC71 from '../../image/IndependentDay.svg';
 import AcademicC72 from '../../image/s4.jpg';
 import AcademicC73 from '../../image/Ind2.png';

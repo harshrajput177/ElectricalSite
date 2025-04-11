@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import '../style/Navbar.css';
 import logo from '../image/Screenshot_2025-03-07_204136-removebg-preview.png';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 const Navbar = () => {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
@@ -63,11 +62,12 @@ const Navbar = () => {
                 <Link to="/junction-boxes" onClick={closeMobileMenu}>Junction Boxes</Link>
               </div>
               <div className="mega-column">
-                <h4>SMART ENERGY MANAGEMENT</h4>
-                <Link to="/digital-meters" onClick={closeMobileMenu}>Digital Panel Meters</Link>
-                <Link to="/multi-function-meters" onClick={closeMobileMenu}>Multi Function Meters</Link>
-                <Link to="/power-analyzers" onClick={closeMobileMenu}>Power Analyzers</Link>
-                <Link to="/prepaid-meter" onClick={closeMobileMenu}>Prepaid Meter</Link>
+                <h4>POWER QUALITY</h4>
+                <Link to="/digital-meters" onClick={closeMobileMenu}>Detuned Harmonic Filtration System</Link>
+                <Link to="/multi-function-meters" onClick={closeMobileMenu}>Reactors</Link>
+                <Link to="/power-analyzers" onClick={closeMobileMenu}>Passive Harmonic Filters</Link>
+                <Link to="/power-analyzers" onClick={closeMobileMenu}>Active Harmonic Filters</Link>
+                <Link to="/prepaid-meter" onClick={closeMobileMenu}>Hybrid Filters</Link>
               </div>
               <div className="mega-column">
                 <h4>POWER FACTOR CORRECTION</h4>
@@ -88,6 +88,7 @@ const Navbar = () => {
           <Link to="/Solution" onClick={closeMobileMenu}>Solution</Link>
           {isSolutionOpen && (
             <ul className="dropdown-menu-flower">
+               <li><Link to="/PlugSocket" onClick={closeMobileMenu}>Industrial Plug & Sockets</Link></li>
               <li><Link to="/PowerFactorCorrection" onClick={closeMobileMenu}>Power Factor Correction</Link></li>
               <li><Link to="/PowerQuality" onClick={closeMobileMenu}>Power Quality</Link></li>
               <li><Link to="/LVSwitchboards" onClick={closeMobileMenu}>LV Switchboards</Link></li>
@@ -111,9 +112,8 @@ const Navbar = () => {
 
       {/* Icons */}
       <div className="icons-flower">
-        <SearchOutlinedIcon className="Flower-icon" />
         <ShoppingCartIcon className="Flower-icon" />
-        <PersonOutlinedIcon className="Flower-icon" />
+        <LocalPhoneIcon className="Flower-icon" /><p  className='rtn-number'>91369 43397</p>
       </div>
 
       {/* Mobile Sidebar */}
@@ -174,3 +174,5 @@ export default Navbar;
 // Domestic/Industrial AC Outlet
 // Variabox
 // Modbox Enclosure & Junction Boxes
+
+

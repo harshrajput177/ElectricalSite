@@ -62,6 +62,11 @@
 }
 
 
+.rtn-number{
+  color: darkred !important;
+  font-size: 1.6rem !important;
+}
+
 /* Dropdown Styling */
 .dropdown-menu-flower {
   position: absolute;
@@ -159,7 +164,7 @@
 .mega-column {  
   flex: 1;
   padding: 0 1vw;
-  min-width: 15vw;
+  min-width: 16vw;
 }
 
 .mega-column h4 {

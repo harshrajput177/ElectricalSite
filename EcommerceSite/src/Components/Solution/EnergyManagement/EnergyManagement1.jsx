@@ -1,6 +1,6 @@
 import React from "react";
-import GalleryC1 from '../../image/cmain.png';
-import '../../../style/Solution-css/Pulgs&Socket-css/Pulgs&SocketCom1.css';
+import GalleryC1 from '../../../image/pexels-pok-rie-33563-157827.jpg';
+import '../../../style/Solution-css/EnergyManagement-css/EnergyManagement1.css';
 
 function Contact(){
     return(

@@ -1,6 +1,6 @@
 import React from "react";
 import GalleryC1 from '../../image/cmain.png';
-import '../../style/ContactUs-css/ContactCom1.css';
+import '../../../style/Solution-css/Lv-css/LvCom1.css';
 
 function Contact(){
     return(

@@ -9,6 +9,11 @@ import Contact from './Pages/ContactPage/ContactComs';
 import Services from './Pages/ServicesPage/ServicesComs';
 import Product from './Pages/ProductPage/ProductPage';
 import Solution from './Pages/SoultionPage/SolutionPage';
+import EnergyManagement from './Pages/SoultionPage/EneryManagement/EnergyManagement';
+import LV from './Pages/SoultionPage/LvSwitch/LvSwitch';
+import PowerQuality from './Pages/SoultionPage/PowerQuality/PowerQuality';
+import PowerFactor from './Pages/SoultionPage/PowerFactor/PowerFactor';
+import Plug from './Pages/SoultionPage/Plug&Socket/Plug&Socket';
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
         <Route path="/Solution" element={<Solution />} />
         <Route path="/Products" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<EnergyManagement />} />
+        <Route path="/contact" element={<PowerFactor />} />
+        <Route path="/contact" element={<PowerQuality />} />
+        <Route path="/contact" element={<LV />} />
+        <Route path="/contact" element={<Plug />} />
       </Routes>
       <Footer />
     </Router>

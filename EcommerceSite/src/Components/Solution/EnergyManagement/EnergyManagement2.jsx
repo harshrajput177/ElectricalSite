@@ -1,10 +1,12 @@
-import '../../../style/Solution-css/S-PowerQuality-css/S-PowerQualityCom2.css'; // Styling file ka import
+import ''; // Styling file ka import
 import AcademicC71 from '../../image/IndependentDay.svg';
 import AcademicC72 from '../../image/s4.jpg';
 import AcademicC73 from '../../image/Ind2.png';
 
 
-const PowerQualityC2 = () => {
+const AcademicsC7 = () => {
+ 
+    useScrollToSection();
     
   return (
     <div className="AcademicsC7-events">
@@ -34,4 +36,4 @@ const PowerQualityC2 = () => {
   );
 };
 
-export default  PowerQualityC2;
+export default AcademicsC7;

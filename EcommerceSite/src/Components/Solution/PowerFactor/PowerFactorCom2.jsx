@@ -1,4 +1,4 @@
-import '../../../style/Solution-css/S-PowerFactor-css/'; // Styling file ka import
+import '../../../style/Solution-css/S-PowerFactor-css/S-PowerFactorCom2.css'; // Styling file ka import
 import C71 from '../../image/IndependentDay.svg';
 import C72 from '../../image/s4.jpg';
 import C73 from '../../image/Ind2.png';
