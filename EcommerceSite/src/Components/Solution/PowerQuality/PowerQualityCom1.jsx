@@ -1,6 +1,6 @@
 import React from "react";
-import C1 from '../../image/cmain.png';
-import '../../../style/Solution-css/S-PowerQualityCom1.css';
+import C1 from '../../../image/cmain.png';
+import '../../../style/Solution-css/S-PowerQuality-css/S-PowerQualityCom1.css';
 
 function PowerQuality(){
     return(

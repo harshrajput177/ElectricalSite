@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Comp1 from "../../../Components/Solution/Plug&Socket/Plug&SocketCom1";
 import Comp2 from "../../../Components/Solution/Plug&Socket/Plug&SocketCom2";
 
@@ -12,17 +11,8 @@ const plugs = () => {
   return (
     <div className="Component">
       <div className="ServicesComponent">
-       
-        <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <Comp1 />
-        </motion.div>
-
-         <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <Comp2 />
-        </motion.div>
-
-   
-
       </div>
       </div>
   );

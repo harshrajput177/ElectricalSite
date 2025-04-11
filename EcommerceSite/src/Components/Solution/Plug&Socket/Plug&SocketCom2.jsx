@@ -1,7 +1,7 @@
 import '../../../style/Solution-css/Pulgs&Socket-css/Pulgs&SocketCom2.css'; 
-import AcademicC71 from '../../image/IndependentDay.svg';
-import AcademicC72 from '../../image/s4.jpg';
-import AcademicC73 from '../../image/Ind2.png';
+import AcademicC71 from '../../../image/Low-voltage-switchgear-845x555.jpg';
+import AcademicC72 from '../../../image/lv-switches-panel-500x500.webp';
+import AcademicC73 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
 
 
 const AcademicsC7 = () => {
@@ -28,8 +28,8 @@ const AcademicsC7 = () => {
         <img src={AcademicC71} alt="Students performing in rows" className="AcademicsC7-event-img" />
       </div>
       <div  className='AcademicsC7-lower-image-C7'>
-      <img src={AcademicC72} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={AcademicC73} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+      <img src={AcademicC73} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
+      <img src={AcademicC72} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
       </div>
     </div>
   );

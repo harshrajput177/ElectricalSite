@@ -1,12 +1,11 @@
-import ''; // Styling file ka import
-import AcademicC71 from '../../image/IndependentDay.svg';
-import AcademicC72 from '../../image/s4.jpg';
-import AcademicC73 from '../../image/Ind2.png';
+import React from 'react'; // Styling file ka import
+import AcademicC71 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
+import AcademicC72 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
+import AcademicC73 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
 
 
 const AcademicsC7 = () => {
  
-    useScrollToSection();
     
   return (
     <div className="AcademicsC7-events">
@@ -26,11 +25,11 @@ const AcademicsC7 = () => {
       </p>
 
       <div className="AcademicsC7-event-images">
-        <img src={AcademicC71} alt="Students performing in rows" className="AcademicsC7-event-img" />
+        <img src={AcademicC71} loading="lazy"  alt="Students performing in rows" className="AcademicsC7-event-img" />
       </div>
       <div  className='AcademicsC7-lower-image-C7'>
-      <img src={AcademicC72} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={AcademicC73} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+      <img src={AcademicC72}  loading="lazy"  alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
+      <img src={AcademicC73}  loading="lazy" alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import GalleryC1 from '../../image/cmain.png';
+import GalleryC1 from '../../../image/cmain.png';
 import '../../../style/Solution-css/Pulgs&Socket-css/Pulgs&SocketCom1.css';
 
 function Contact(){

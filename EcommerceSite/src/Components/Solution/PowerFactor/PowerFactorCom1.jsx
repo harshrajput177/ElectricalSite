@@ -1,5 +1,5 @@
 import React from "react";
-import C1 from '../../image/cmain.png';
+import C1 from '../../../image/cmain.png';
 import '../../../style/Solution-css/S-PowerFactor-css/S-PowerFactorCom1.css';
 
 function PowerFactorC1(){

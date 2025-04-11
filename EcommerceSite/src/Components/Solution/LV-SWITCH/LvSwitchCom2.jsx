@@ -1,7 +1,7 @@
 import '../../../style/Solution-css/Lv-css/LvCom2.css'; // Styling file ka import
-import AcademicC71 from '';
-import AcademicC72 from '';
-import AcademicC73 from '';
+import AcademicC71 from '../../../image/Low-voltage-switchgear-845x555.jpg';
+import AcademicC72 from '../../../image/lv-switches-panel-500x500.webp';
+import AcademicC73 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
 
 
 const AcademicsC7 = () => {
@@ -25,11 +25,11 @@ const AcademicsC7 = () => {
       </p>
 
       <div className="AcademicsC7-event-images">
-        <img src={AcademicC71} alt="Students performing in rows" className="AcademicsC7-event-img" />
+        <img src={AcademicC71} loading="lazy"  alt="Students performing in rows" className="AcademicsC7-event-img" />
       </div>
       <div  className='AcademicsC7-lower-image-C7'>
-      <img src={AcademicC72} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={AcademicC73} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+      <img src={AcademicC72} loading="lazy"  alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
+      <img src={AcademicC73} loading="lazy"  alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
       </div>
     </div>
   );

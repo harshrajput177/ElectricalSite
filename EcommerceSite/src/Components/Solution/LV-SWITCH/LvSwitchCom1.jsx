@@ -1,5 +1,5 @@
 import React from "react";
-import GalleryC1 from '../../image/cmain.png';
+import C1 from '../../../image/cmain.png';
 import '../../../style/Solution-css/Lv-css/LvCom1.css';
 
 function Contact(){
@@ -7,7 +7,7 @@ function Contact(){
         <div className="Contact-container_2">
           <h1>Contact</h1>
           <div className="Contactline"></div>
-        <img src={GalleryC1} alt="Hero" className="Contact-hero-img_2" />
+        <img src={C1} alt="Hero" className="Contact-hero-img_2" />
       </div>
     )
 }

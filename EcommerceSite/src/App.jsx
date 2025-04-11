@@ -26,11 +26,11 @@ function App() {
         <Route path="/Solution" element={<Solution />} />
         <Route path="/Products" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/contact" element={<EnergyManagement />} />
-        <Route path="/contact" element={<PowerFactor />} />
-        <Route path="/contact" element={<PowerQuality />} />
-        <Route path="/contact" element={<LV />} />
-        <Route path="/contact" element={<Plug />} />
+        <Route path="/EnergyManagement" element={<EnergyManagement />} />
+        <Route path="//PowerFactorCorrection" element={<PowerFactor />} />
+        <Route path="/PowerQuality" element={<PowerQuality />} />
+        <Route path="/LVSwitchboards" element={<LV />} />
+        <Route path="/PlugSocket" element={<Plug />} />
       </Routes>
       <Footer />
     </Router>

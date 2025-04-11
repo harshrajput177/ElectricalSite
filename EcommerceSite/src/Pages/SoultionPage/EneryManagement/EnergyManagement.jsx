@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+
 import Comp1 from "../../../Components/Solution/EnergyManagement/EnergyManagement1";
 import Comp2 from "../../../Components/Solution/EnergyManagement/EnergyManagement2";
 
@@ -13,15 +13,9 @@ const EnergyManagement = () => {
   return (
     <div className="Component">
       <div className="ServicesComponent">
-       
-        <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
+
           <Comp1 />
-        </motion.div>
-
-         <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-          <Comp2 />
-        </motion.div>
-
+        <Comp2 />
 
       </div>
       </div>
