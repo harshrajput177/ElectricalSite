@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import  Vision  from '../../../image/Ac-smart-socket.jpg';
-import '../../../style/EvSolution-css/EvSolutionCom2.css';
+import  Vision  from '../../../image/acdc-aio-type.jpg';
+import '../../../style/EvSolution-css/EvSolutionCom5.css';
 
 function AboutC4(){
 
@@ -9,7 +9,7 @@ function AboutC4(){
       <div id='Vision-section' className="bc-con">
         <div className="sc-con">
         <h1  className="text-C4-h1">
-        AC EV Smart Socket
+        ADC Combination Charger
         </h1>
         <p>
         Mount Litera Zee School, Bihta offers a comprehensive and unique 

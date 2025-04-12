@@ -1,15 +1,18 @@
 import React, { useEffect } from "react";
-import  Vision  from '../../../image/Ac-smart-socket.jpg';
-import '../../../style/EvSolution-css/EvSolutionCom2.css';
+import  Vision  from '../../../image/ac-type-2-ev-charger-panasonic.jpg';
+import '../../../style/EvSolution-css/EvSolutionCom3.css';
+
 
 function AboutC4(){
+
+
 
     return(
    <div  className="bc-contents">
       <div id='Vision-section' className="bc-con">
         <div className="sc-con">
         <h1  className="text-C4-h1">
-        AC EV Smart Socket
+        AC EV Charger
         </h1>
         <p>
         Mount Litera Zee School, Bihta offers a comprehensive and unique 

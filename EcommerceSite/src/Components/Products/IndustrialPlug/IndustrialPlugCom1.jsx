@@ -1,6 +1,6 @@
 import React from "react";
 import GalleryC1 from '../../../image/pexels-pok-rie-33563-157827.jpg';
-import '../../../style/Product-css/';
+import '../../../style/IndustrialPlug-css/IndustrialPlugCom1.css';
 
 function Contact(){
     return(

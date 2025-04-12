@@ -1,15 +1,11 @@
 import React from "react";
-import "../../../style/IndustrialPlug-css/IndustrialPlugCom2.css";
-import img1 from '../../../image/Socket-Outlet-300x300.jpg'
-import img2 from '../../../image/Surfacemount-2.jpg'
-import img3 from '../../../image/surface-mounting-1.jpg'
-import img4 from '../../../image/surface-mounting-with-interlocking.jpg'
-import img5 from '../../../image/Surface-Monting-MCB.jpg'
-import img6 from '../../../image/1133-300x300.jpg'
-import img7 from '../../../image/surface-mounting-with-interlocking.jpg'
-import img8 from '../../../image/Surface-Monting-MCB.jpg'
-import img9 from '../../../image/1133-300x300.jpg'
-
+import "../../../style/IndustrialPlug-css/IndustrialPlugCom5.css";
+import img1 from '../../../image/3195-300x300.jpg'
+import img2 from '../../../image/5-5-300x300.jpg'
+import img3 from '../../../image/GT-Connectors.jpg'
+import img4 from '../../../image/3104_gt_connecter_ip_44_3_pin-300x300.jpg'
+import img5 from '../../../image/4-5-300x300.jpg'
+import img6 from '../../../image/3112_gt_Connecter_ip_44_5_pin-300x300.jpg'
 
 const products = [
   { id: 1, img: img1 },
@@ -18,16 +14,13 @@ const products = [
   { id: 4, img: img4 },
   { id: 5, img:  img5},
   { id: 6, img:  img6},
-  { id: 7, img:  img7},
-  { id: 8, img:  img8},
-  { id: 9, img:  img9},
 ];
 
 const ProductListing = () => {
   return (
     <div className="product-container">
       <div className="product-description">
-        <p><strong>Surface Mounting</strong> refers to the installation method where a device, such as a socket outlet...</p>
+        <p><strong>GT Connector</strong> refers to the installation method where a device, such as a socket outlet...</p>
         <p>Neptune offers Panel Mounting Socket Outlets in both straight and angled designs...</p>
         <p>Our socket outlets are available with IP44 and IP67 ratings...</p>
       </div>
@@ -51,27 +44,3 @@ const ProductListing = () => {
 };
 
 export default ProductListing;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Variabox
-// Modbox Enclosure & Junction Boxes

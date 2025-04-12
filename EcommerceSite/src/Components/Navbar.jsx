@@ -45,39 +45,37 @@ const Navbar = () => {
          <div className="mega-menu">
          <div className="mega-column">
            <h4>EV SOLUTION</h4>
-           <Link to="/ev-smart-socket" onClick={closeMobileMenu}>AC EV Smart Socket</Link>
-           <a href="#ac-ev-charger" onClick={closeMobileMenu}>AC EV Charger</a>
-           <a href="#dc-ev-charger" onClick={closeMobileMenu}>DC EV Charger</a>
-           <a href="#adc-combo-charger" onClick={closeMobileMenu}>ADC Combination Charger</a>
+           <li><Link to="/ev-smart-socket" onClick={closeMobileMenu}>AC EV Smart Socket</Link></li>
+                <li><Link to="/ac-ev-charger" onClick={closeMobileMenu}>AC EV Charger</Link></li>
+                <li><Link to="/dc-ev-charger" onClick={closeMobileMenu}>DC EV Charger</Link></li>
+                <li><Link to="/adc-combo-charger" onClick={closeMobileMenu}>ADC Combination Charger</Link></li>
          </div>
        
          <div className="mega-column">
            <h4>INDUSTRIAL PLUG & SOCKETS</h4>
            <Link to="/surface-mounting" onClick={closeMobileMenu}>Surface Mounting</Link>
-           <a href="#panel-mounting" onClick={closeMobileMenu}>Panel Mounting</a>
-           <a href="#plugs" onClick={closeMobileMenu}>Plugs</a>
-           <a href="#gt-connector" onClick={closeMobileMenu}>GT Connector</a>
-           <a href="#surface-with-mcb" onClick={closeMobileMenu}>Surface Mounting with MCB</a>
-           <a href="#ac-outlet" onClick={closeMobileMenu}>Industrial AC Outlet</a>
-           <a href="#variabox" onClick={closeMobileMenu}>Variabox</a>
-           <a href="#junction-boxes" onClick={closeMobileMenu}>Junction Boxes</a>
+           <Link to="/panel-mounting" onClick={closeMobileMenu}>Panel Mounting</Link>
+           <Link to="/plugs" onClick={closeMobileMenu}>Plugs</Link>
+           <Link to="/gt-connector" onClick={closeMobileMenu}>GT Connector</Link>
+           <Link to="/surface-with-mcb" onClick={closeMobileMenu}>Surface Mounting with MCB</Link>
+           <Link to="/ac-outlet" onClick={closeMobileMenu}>Industrial AC Outlet</Link>
          </div>
        
          <div className="mega-column">
            <h4>POWER QUALITY</h4>
            <Link to="/digital-meters" onClick={closeMobileMenu}>Detuned Harmonic Filtration System</Link>
-           <a href="#multi-function-meters" onClick={closeMobileMenu}>Reactors</a>
-           <a href="#passive-harmonic" onClick={closeMobileMenu}>Passive Harmonic Filters</a>
-           <a href="#active-harmonic" onClick={closeMobileMenu}>Active Harmonic Filters</a>
-           <a href="#hybrid-filters" onClick={closeMobileMenu}>Hybrid Filters</a>
+           <Link to="/multi-function-meters" onClick={closeMobileMenu}>Reactors</Link>
+           <Link to="/power-analyzers" onClick={closeMobileMenu}>Passive Harmonic Filters</Link>
+           <Link to="/power-analyzers" onClick={closeMobileMenu}>Active Harmonic Filters</Link>
+           <Link to="/prepaid-meter" onClick={closeMobileMenu}>Hybrid Filters</Link>
          </div>
        
          <div className="mega-column">
            <h4>Smart Energy Management</h4>
-           <Link to="/Digital Panel" onClick={closeMobileMenu}>Digital Panel Meters</Link>    
-           <a href="#multi-function" onClick={closeMobileMenu}>Multi Function Meters</a>
-           <a href="#power-analyzers" onClick={closeMobileMenu}>Power Analyzers</a>
-           <a href="#prepaid-meter" onClick={closeMobileMenu}>Prepaid Meter</a>
+           <Link to="/Digital-Panel" onClick={closeMobileMenu}>Digital Panel Meters</Link>    
+           <Link to="/Multi-Function" onClick={closeMobileMenu}>Multi Function Meters</Link>
+           <Link to="/Power-Analyzers" onClick={closeMobileMenu}>Power Analyzers</Link>
+           <Link to="/thyristors" onClick={closeMobileMenu}>Prepaid Meter</Link>
          </div>
        </div>
        
@@ -168,6 +166,24 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

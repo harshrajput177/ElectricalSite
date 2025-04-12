@@ -14,6 +14,17 @@ import LV from './Pages/SoultionPage/LvSwitch/LvSwitch';
 import PowerQuality from './Pages/SoultionPage/PowerQuality/PowerQuality';
 import PowerFactor from './Pages/SoultionPage/PowerFactor/PowerFactor';
 import Plug from './Pages/SoultionPage/Plug&Socket/Plug&Socket';
+import Ev_1 from './Pages/ProductPage/EvPage/EvPage1';
+import Ev_2 from './Pages/ProductPage/EvPage/EvPage2';
+import Ev_3 from './Pages/ProductPage/EvPage/EvPage3';
+import Ev_4 from './Pages/ProductPage/EvPage/EvPage4';
+import IndusProduct from './Pages/ProductPage/IndustrialPlugProduct/IndustrialPlug';
+import IndusProduct_2 from './Pages/ProductPage/IndustrialPlugProduct/IndustrialPlug2';
+import IndusProduct_3 from './Pages/ProductPage/IndustrialPlugProduct/IndustrialPlug3';
+import IndusProduct_4 from './Pages/ProductPage/IndustrialPlugProduct/IndustrialPlug4';
+import IndusProduct_5 from './Pages/ProductPage/IndustrialPlugProduct/IndustrialPlug5';
+import IndusProduct_6 from './Pages/ProductPage/IndustrialPlugProduct/IndustrialPlug6';
+
 
 function App() {
   return (
@@ -31,10 +42,24 @@ function App() {
         <Route path="/PowerQuality" element={<PowerQuality />} />
         <Route path="/LVSwitchboards" element={<LV />} />
         <Route path="/PlugSocket" element={<Plug />} />
+
+
+        <Route path="/ev-smart-socket" element={<Ev_1 />} />
+        <Route path="/ac-ev-charger" element={<Ev_2 />} />
+        <Route path="/dc-ev-charger" element={<Ev_3 />} />
+        <Route path="/adc-combo-charger" element={<Ev_4 />} />
+        <Route path="/surface-mounting" element={<IndusProduct />} />
+        <Route path="/panel-mounting" element={<IndusProduct_2 />} />
+        <Route path="plugs" element={<IndusProduct_3 />} />
+        <Route path="/gt-connector" element={<IndusProduct_4 />} />
+        <Route path="/surface-with-mcb" element={<IndusProduct_5 />} />
+        <Route path="/ac-outlet" element={<IndusProduct_6 />} />
+
+
       </Routes>
       <Footer />
     </Router>
   );
 }
 
-export default App;``
+export default App;

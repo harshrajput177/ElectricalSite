@@ -1,0 +1,110 @@
+.bc-contents{
+    padding: 5vw 0;
+  }
+  .bc-con {
+    scroll-margin-top: 110px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: row;
+      gap: 1vw;
+      justify-content: space-between;
+      padding: 0 8vw;
+    }
+  
+    
+    .blue-text_C4   {
+      color: #2C3192;
+    }
+    
+    .sc-con {
+      text-align: left;
+      max-width: 55vw;
+    }
+  
+    .text-C4-h1{
+              margin-bottom: 1.6vw;
+      color: #2C3192;
+    }
+    
+    .sc-con h1 {
+      font-size: 2rem; 
+      line-height: 1.1;
+      font-weight: 700;
+      color: #2C3192;
+    }
+    
+    .sc-con p {
+      font-size: 1rem;
+      line-height: 2;
+      
+      margin-bottom: 1vw;
+      text-align: justify;
+      color: rgb(0, 0, 0);
+    }
+   
+    
+    .Vision-image img {
+      top: 0;
+      max-width: 400px;
+      max-height: 400px;
+    }
+  
+    .text-C4-h1 h1 {
+      text-align: start;
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+    
+  
+    .bottom-paragrapgh-div{
+      padding: 0  8vw;
+    }
+    .bottom-paragraph{
+      font-size: 1rem;
+      line-height: 2;
+      text-align: justify;
+      
+    }
+    
+    
+      
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .bc-con {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+  
+    .sc-con {
+      text-align: center; /* Center-align text for smaller screens */
+      max-width: 90%; /* Adjust width for better readability */
+      margin-bottom: 20px;
+    }
+  
+    .sc-con h1 {
+      font-size:  1.6rem; /* Adjust font size for smaller screens */
+    }
+  
+    .sc-con p {
+      text-align: left;
+      font-size: 1rem; /* Slightly smaller text for compact screens */
+    }
+  
+    .text-C4-h1{
+      text-align: left;
+    }
+  
+    .Vision-image img {
+      max-width: 100%; /* Make image take up full width */
+      height: auto;
+      margin-top: 20px; /* Add space between text and image */
+    }
+  
+    .Vision-image img {
+      top: 0;
+      max-width: 300px;
+      max-height: 300px;
+    }
+  }
