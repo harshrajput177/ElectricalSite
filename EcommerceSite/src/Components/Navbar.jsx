@@ -137,6 +137,14 @@ const Navbar = () => {
                 <li><Link to="/ac-ev-charger" onClick={closeMobileMenu}>AC EV Charger</Link></li>
                 <li><Link to="/dc-ev-charger" onClick={closeMobileMenu}>DC EV Charger</Link></li>
                 <li><Link to="/adc-combo-charger" onClick={closeMobileMenu}>ADC Combination Charger</Link></li>
+                <li>INDUSTRIAL PLUG & SOCKETS</li>
+                <li><Link to="/surface-mounting" onClick={closeMobileMenu}>Surface Mounting</Link></li>
+<li><Link to="/panel-mounting" onClick={closeMobileMenu}>Panel Mounting</Link></li>
+<li><Link to="/plugs" onClick={closeMobileMenu}>Plugs</Link></li>
+<li><Link to="/gt-connector" onClick={closeMobileMenu}>GT Connector</Link></li>
+<li><Link to="/surface-with-mcb" onClick={closeMobileMenu}>Surface Mounting with MCB</Link></li>
+<li><Link to="/ac-outlet" onClick={closeMobileMenu}>Industrial AC Outlet</Link></li>
+
                 <li><strong>SMART ENERGY</strong></li>
                 <li><Link to="/digital-meters" onClick={closeMobileMenu}>Digital Panel Meters</Link></li>
               </ul>
@@ -147,6 +155,7 @@ const Navbar = () => {
             <details>
               <summary>Solution</summary>
               <ul>
+              <li><Link to="/PlugSocket" onClick={closeMobileMenu}>Industrial Plug & Sockets</Link></li>
                 <li><Link to="/PowerFactorCorrection" onClick={closeMobileMenu}>Power Factor Correction</Link></li>
                 <li><Link to="/PowerQuality" onClick={closeMobileMenu}>Power Quality</Link></li>
                 <li><Link to="/LVSwitchboards" onClick={closeMobileMenu}>LV Switchboards</Link></li>

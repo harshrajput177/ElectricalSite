@@ -1,5 +1,5 @@
 import React from "react";
-import GalleryC1 from '../../../image/pexels-pok-rie-33563-157827.jpg';
+import GalleryC1 from '../../../image/GettyImages-2163729535.webp';
 import '../../../style/EvSolution-css/EvSolutionCom1.css';
 
 function Contact(){
