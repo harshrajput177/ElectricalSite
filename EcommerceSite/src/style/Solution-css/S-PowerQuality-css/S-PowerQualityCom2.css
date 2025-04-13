@@ -1,101 +1,85 @@
 
 
-.AcademicsC7-events {
+.PowerQualityC7-events {
   scroll-margin-top: 160px;
   width: 84%;
   margin: auto;
   padding: 2vw;
-    font-family: 'PoppinsExtraBold';
+    
     line-height: 1.6;
   }
   
-  .AcademicsC7-event-title {
-    font-family: 'PoppinsBold';
+  .PowerQualityC7-event-title{
     text-align: left;
     font-size: 1.2rem;
     color: #2C318F;
     margin: 15px 0;
   }
   
-  .AcademicsC7-events p{
-    font-family: 'PoppinsMedium';
+  .PowerQualityC7-events p{
     font-size: 0.9rem;
     text-align: justify;
     line-height: 2;
   }
-  .AcademicsC7-event-description {
+  .PowerQualityC7-event-description {
     font-size: 0.9rem;
     color: #1c1c1c;
     text-align: justify;
   }
   
-  .AcademicsC7-event-images {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+  .PowerQualityC7-image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
     margin-top: 20px;
-    margin-bottom: 10px;
   }
   
-  .AcademicsC7-event-img {
-    width: 100%; /* Three images ek row mein */
-    height: 340px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    object-fit: cover;
+  .PowerQualityC7-grid-img {
+    width: 60%;
+    height: 200px;
+    object-fit: contain;
+    /* border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); */
   }
 
-  .AcademicsC7-event-img-lower {
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  .PowerQualityC7-grid-img:hover{
+        border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
-  .AcademicsC7-small-img-C7{
-    width: 32%;
-    height: 280px;
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .PowerQualityC7-image-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
-  .AcademicsC7-large-img-C7{
-    width: 67%;
-    height: 280px;
+  
+  @media (max-width: 576px) {
+    .PowerQualityC7-image-grid {
+      grid-template-columns: 1fr;
+    }
   }
-  .AcademicsC7-lower-image-C7{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
-
+  
 
 
   @media (max-width: 768px) {
-  .AcademicsC7-events {
+  .PowerQualityC7-events {
     padding: 10px;
     }
 
-  .AcademicsC7-event-title {
+  .PowerQualityC7-event-title {
     font-size: 18px;
   }
   
-  .AcademicsC7-event-description {
+  .PowerQualityC7-event-description {
     font-size: 14px;
-  }
-  
-  .AcademicsC7-event-img {
-    height: auto;
-  }
-  
-  .AcademicsC7-lower-image-C7 {
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .AcademicsC7-small-img-C7, .AcademicsC7-large-img-C7 {
-    width: 100%;
-    height: auto;
   }
 }
 
 @media (max-width: 480px) {
-  .AcademicsC7-event-title {
+  .PowerQualityC7-event-title {
   font-size: 16px;
   }
 }
+

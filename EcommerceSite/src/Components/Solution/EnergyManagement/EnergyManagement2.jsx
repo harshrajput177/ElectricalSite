@@ -1,35 +1,47 @@
-import React from 'react'; // Styling file ka import
+import React from 'react';
 import AcademicC71 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
 import AcademicC72 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
 import AcademicC73 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
 
-
 const AcademicsC7 = () => {
- 
-    
   return (
     <div className="AcademicsC7-events">
-      <h2><strong>Events</strong></h2>
-      <h3 className="AcademicsC7-event-title">Republic Day Celebration, 2024</h3>
+      <h2><strong>Energy Management System</strong></h2>
+      <h3 className="AcademicsC7-event-title">Optimizing Power Usage in Industrial Environments</h3>
       <p className="AcademicsC7-event-description">
-      Mount Litera Zee School, Bihta, celebrated Republic Day with great fervor and patriotism, honouring the spirit of unity, diversity, and national pride. The event was marked by a splendid array of performances that captured the essence of India’s rich cultural heritage. Our students mesmerized the audience with a vibrant cultural program, featuring heartfelt songs, energetic dances, and thought-provoking skits that paid tribute to our nation’s journey and the ideals enshrined in our Constitution.
+        An Energy Management System (EMS) is a powerful tool designed to monitor, control, and optimize the energy consumption of industrial and commercial facilities. It plays a crucial role in enhancing energy efficiency, reducing operational costs, and promoting sustainability.
       </p>
       <p>
-      The ceremony commenced with the hoisting of the national flag, followed by the National Anthem, which resonated through the school grounds, filling everyone with a deep sense of pride and patriotism. As we reflected on the significance of this day, we remembered the founding principles of justice, equality, and liberty that form the bedrock of our democracy.
+        By integrating advanced sensors, data analytics, and automation, EMS helps organizations identify energy-saving opportunities, track real-time consumption, and make informed decisions for energy optimization. It provides detailed insights into the performance of various equipment and systems, enabling proactive maintenance and load balancing.
       </p>
       <p>
-      Our Director and Principal delivered inspiring speeches, urging students to embrace the values of integrity, unity, and responsibility as they play their part in shaping the future of our nation. They emphasized the importance of nurturing the vision of a progressive India, where every citizen’s rights are respected, and freedom is cherished
+        The implementation of EMS is especially vital in large-scale operations where even minor inefficiencies can lead to significant energy waste. With the ability to set consumption targets, detect anomalies, and generate reports, EMS ensures compliance with energy regulations and supports environmental goals.
       </p>
       <p>
-      As we commemorate Republic Day, let us all reaffirm our commitment to upholding the legacy of our founding fathers, striving for a harmonious and prosperous future, and working together to strengthen the fabric of our great nation.
+        Investing in a robust Energy Management System not only enhances operational efficiency but also contributes to long-term sustainability and resilience by reducing the carbon footprint and promoting smarter energy usage.
       </p>
 
       <div className="AcademicsC7-event-images">
-        <img src={AcademicC71} loading="lazy"  alt="Students performing in rows" className="AcademicsC7-event-img" />
+        <img
+          src={AcademicC71}
+          loading="lazy"
+          alt="Energy monitoring and control layout"
+          className="AcademicsC7-event-img"
+        />
       </div>
-      <div  className='AcademicsC7-lower-image-C7'>
-      <img src={AcademicC72}  loading="lazy"  alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={AcademicC73}  loading="lazy" alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+      <div className="AcademicsC7-lower-image-C7">
+        <img
+          src={AcademicC72}
+          loading="lazy"
+          alt="Digital layout of energy equipment"
+          className="AcademicsC7-event-img-lower AcademicsC7-small-img-C7"
+        />
+        <img
+          src={AcademicC73}
+          loading="lazy"
+          alt="Systematic layout for energy distribution"
+          className="AcademicsC7-event-img-lower AcademicsC7-large-img-C7"
+        />
       </div>
     </div>
   );

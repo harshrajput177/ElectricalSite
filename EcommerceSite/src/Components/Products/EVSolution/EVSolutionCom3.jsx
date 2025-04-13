@@ -1,45 +1,36 @@
-import React, { useEffect } from "react";
-import  Vision  from '../../../image/ac-type-2-ev-charger-panasonic.jpg';
+import React from "react";
+import Vision from '../../../image/ac-type-2-ev-charger-panasonic.jpg';
 import '../../../style/EvSolution-css/EvSolutionCom3.css';
 
-
-function AboutC4(){
-
-
-
-    return(
-   <div  className="bc-contents">
+function AboutC4() {
+  return (
+    <div className="bc-contents">
       <div id='Vision-section' className="bc-con">
         <div className="sc-con">
-        <h1  className="text-C4-h1">
-        AC EV Charger
-        </h1>
-        <p>
-        Mount Litera Zee School, Bihta offers a comprehensive and unique 
-        educational experience, meticulously designed to prepare your child for a successful future
-         in today’s rapidly changing world. Our vision is to establish an institution of excellence, 
-        where timeless human values are seamlessly integrated with the highest quality of teaching and learning.
-        By leveraging modern, technology-driven tools, we strive to nurture a well-rounded individual,
-        ready to contribute meaningfully to society. 
-        </p>
+          <h1 className="text-C4-h1">
+            AC EV Charger
+          </h1>
+          <p>
+            The AC EV Charger is a smart and efficient charging solution tailored for modern electric vehicles. 
+            Designed with advanced safety features and user-friendly operation, this charger supports Type 2 
+            connectors, making it compatible with most EVs on the market. Its sleek and compact design allows 
+            for easy installation in residential, commercial, and industrial settings.
+          </p>
         </div>
         <div className="Vision-image">
-          <img src={Vision} alt="Business Illustration" />
+          <img src={Vision} alt="AC EV Charger" />
         </div>
       </div>
-     <div className="bottom-paragrapgh-div">
-     <p className="bottom-paragraph">
-     Furthermore, we are dedicated to shaping global minds on Indian soil,
-          providing every student access to world-class infrastructure and an
-          innovative curriculum that fosters all-round development. This approach
-          ensures that while our students are equipped to face the global
-          challenges of tomorrow, they remain deeply rooted in the rich
-          traditions and values that form the foundation of our culture
-      </p>
-     </div>
-   </div>
-    )
-    
+      <div className="bottom-paragrapgh-div">
+        <p className="bottom-paragraph">
+          With features such as dynamic load management, energy monitoring, and remote control via a mobile app, 
+          the AC EV Charger ensures efficient power usage and full control over your vehicle’s charging process. 
+          It’s an ideal choice for eco-conscious users looking to embrace sustainable transportation 
+          while enjoying the convenience of intelligent charging technology.
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default AboutC4;

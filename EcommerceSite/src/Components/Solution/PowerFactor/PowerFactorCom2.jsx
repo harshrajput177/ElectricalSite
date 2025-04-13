@@ -1,35 +1,32 @@
 import '../../../style/Solution-css/S-PowerFactor-css/S-PowerFactorCom2.css'; // Styling file ka import
 import C71 from '../../../image/blog-2_3.webp';
 import C72 from '../../../image/power-factor-correction.jpg';
-import C73 from '../../../image/PowerFactor-2.jpg';
-
+import C73 from '../../../image/waalpaper1.jpeg';
 
 const PowerFactorC2 = () => {
- 
-    
   return (
     <div className="AcademicsC7-events">
-      <h2><strong>Events</strong></h2>
-      <h3 className="AcademicsC7-event-title">Republic Day Celebration, 2024</h3>
+      <h2><strong>Power Factor Correction</strong></h2>
+      <h3 className="AcademicsC7-event-title">Improving Electrical Efficiency in Industrial Systems</h3>
       <p className="AcademicsC7-event-description">
-      Mount Litera Zee School, Bihta, celebrated Republic Day with great fervor and patriotism, honouring the spirit of unity, diversity, and national pride. The event was marked by a splendid array of performances that captured the essence of India’s rich cultural heritage. Our students mesmerized the audience with a vibrant cultural program, featuring heartfelt songs, energetic dances, and thought-provoking skits that paid tribute to our nation’s journey and the ideals enshrined in our Constitution.
+        Power Factor Correction (PFC) is a crucial process in electrical systems, especially in industrial environments, where large inductive loads like motors and transformers are commonly used. These loads can cause a lagging power factor, leading to inefficiencies and increased energy costs.
       </p>
       <p>
-      The ceremony commenced with the hoisting of the national flag, followed by the National Anthem, which resonated through the school grounds, filling everyone with a deep sense of pride and patriotism. As we reflected on the significance of this day, we remembered the founding principles of justice, equality, and liberty that form the bedrock of our democracy.
+        By installing power factor correction devices such as capacitors or synchronous condensers, industries can reduce the phase difference between voltage and current. This not only improves the efficiency of power usage but also minimizes losses and reduces the load on the power grid.
       </p>
       <p>
-      Our Director and Principal delivered inspiring speeches, urging students to embrace the values of integrity, unity, and responsibility as they play their part in shaping the future of our nation. They emphasized the importance of nurturing the vision of a progressive India, where every citizen’s rights are respected, and freedom is cherished
+        A higher power factor means better utilization of electrical power, resulting in lower electricity bills, improved voltage regulation, and reduced greenhouse gas emissions due to decreased power generation demand.
       </p>
       <p>
-      As we commemorate Republic Day, let us all reaffirm our commitment to upholding the legacy of our founding fathers, striving for a harmonious and prosperous future, and working together to strengthen the fabric of our great nation.
+        Implementing Power Factor Correction is not just a smart economic decision but also a step towards sustainable and reliable industrial operations. It ensures that the electrical system performs at its best while meeting regulatory and environmental standards.
       </p>
 
       <div className="AcademicsC7-event-images">
-        <img src={C71} alt="Students performing in rows" className="AcademicsC7-event-img" />
+        <img src={C71} alt="Power factor correction equipment" className="AcademicsC7-event-img" />
       </div>
-      <div  className='AcademicsC7-lower-image-C7'>
-      <img src={C72} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={C73} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+      <div className='AcademicsC7-lower-image-C7'>
+        <img src={C72} alt="Capacitor banks for PFC" className="AcademicsC7-event-img-lower AcademicsC7-small-img-C7" />
+        <img src={C73} alt="Diagram showing power factor improvement" className="AcademicsC7-event-img-lower AcademicsC7-large-img-C7" />
       </div>
     </div>
   );

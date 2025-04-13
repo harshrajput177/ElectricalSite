@@ -1,38 +1,35 @@
 import '../../../style/Solution-css/Pulgs&Socket-css/Pulgs&SocketCom2.css'; 
-import AcademicC71 from '../../../image/Low-voltage-switchgear-845x555.jpg';
-import AcademicC72 from '../../../image/lv-switches-panel-500x500.webp';
-import AcademicC73 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
+import AcademicC71 from '../../../image/L_plugsockets.jpg';
+import AcademicC72 from '../../../image/ant-Industriale-2.jpg';
+import AcademicC73 from '../../../image/38-300x300.jpg';
 
-
-const AcademicsC7 = () => {
- 
-    
+const PlugC7 = () => {
   return (
-    <div className="AcademicsC7-events">
-      <h2><strong>Events</strong></h2>
-      <h3 className="AcademicsC7-event-title">Republic Day Celebration, 2024</h3>
-      <p className="AcademicsC7-event-description">
-      Mount Litera Zee School, Bihta, celebrated Republic Day with great fervor and patriotism, honouring the spirit of unity, diversity, and national pride. The event was marked by a splendid array of performances that captured the essence of India’s rich cultural heritage. Our students mesmerized the audience with a vibrant cultural program, featuring heartfelt songs, energetic dances, and thought-provoking skits that paid tribute to our nation’s journey and the ideals enshrined in our Constitution.
+    <div className="PlugC7-events">
+      <h2><strong>Industrial Plugs and Sockets</strong></h2>
+      <h3 className="PlugC7-event-title">Reliable Electrical Solutions for Industrial Applications</h3>
+      <p className="PlugC7-event-description">
+        Industrial plugs and sockets are essential components used to ensure safe and efficient power distribution in factories, workshops, and heavy-duty environments. Designed to withstand tough conditions, they offer high durability, water resistance, and secure connections for various industrial machinery and tools.
       </p>
       <p>
-      The ceremony commenced with the hoisting of the national flag, followed by the National Anthem, which resonated through the school grounds, filling everyone with a deep sense of pride and patriotism. As we reflected on the significance of this day, we remembered the founding principles of justice, equality, and liberty that form the bedrock of our democracy.
+        These systems are engineered to handle high voltage and current loads while maintaining safety standards. Whether it's for indoor or outdoor applications, industrial plugs and sockets provide flexibility, ease of installation, and maintenance-friendly solutions for power management.
       </p>
       <p>
-      Our Director and Principal delivered inspiring speeches, urging students to embrace the values of integrity, unity, and responsibility as they play their part in shaping the future of our nation. They emphasized the importance of nurturing the vision of a progressive India, where every citizen’s rights are respected, and freedom is cherished
+        From construction sites to manufacturing plants, they play a crucial role in reducing downtime, preventing electrical hazards, and enhancing operational efficiency. Their robust design makes them ideal for harsh conditions where regular domestic sockets wouldn't survive.
       </p>
       <p>
-      As we commemorate Republic Day, let us all reaffirm our commitment to upholding the legacy of our founding fathers, striving for a harmonious and prosperous future, and working together to strengthen the fabric of our great nation.
+        With evolving technology and safety regulations, modern industrial plug and socket systems now come with enhanced features like interlocks, color coding, and international standard compliance, making them a vital part of any industrial electrical infrastructure.
       </p>
 
-      <div className="AcademicsC7-event-images">
-        <img src={AcademicC71} alt="Students performing in rows" className="AcademicsC7-event-img" />
+      <div className="PlugC7-event-images">
+        <img src={AcademicC71} alt="Low voltage switchgear unit" className="PlugC7-event-img" />
       </div>
-      <div  className='AcademicsC7-lower-image-C7'>
-      <img src={AcademicC73} alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={AcademicC72} alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+      <div className='PlugC7-lower-image-C7'>
+        <img src={AcademicC73} alt="Switchgear drafting and layout" className="PlugC7-event-img-lower PlugC7-small-img-C7" />
+        <img src={AcademicC72} alt="Industrial switches and panels" className="PlugC7-event-img-lower PlugC7-large-img-C7" />
       </div>
     </div>
   );
 };
 
-export default AcademicsC7;
+export default PlugC7;

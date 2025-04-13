@@ -1,38 +1,97 @@
-import '../../../style/Solution-css/Lv-css/LvCom2.css'; // Styling file ka import
-import AcademicC71 from '../../../image/Low-voltage-switchgear-845x555.jpg';
-import AcademicC72 from '../../../image/lv-switches-panel-500x500.webp';
-import AcademicC73 from '../../../image/drafting-layout-lv-switchgear-equipment-inside-installations-experience.webp';
+import '../../../style/Solution-css/Lv-css/LvCom2.css';
+import AcademicC71 from '../../../image/motor-control.png';
+import AcademicC72 from '../../../image/pcc-1.jpg';
+import AcademicC73 from '../../../image/APFC.png';
+import AcademicC74 from '../../../image/dg-panel.png'; 
+import AcademicC75 from '../../../image/elsteel.png';
+import AcademicC76 from '../../../image/feeder-pillar-1.png'; 
+import AcademicC77 from '../../../image/mobile-distribution-assemblies.png'; 
 
-
-const AcademicsC7 = () => {
- 
-    
+const PowerQualityC2 = () => {
   return (
-    <div className="AcademicsC7-events">
-      <h2><strong>Events</strong></h2>
-      <h3 className="AcademicsC7-event-title">Republic Day Celebration, 2024</h3>
+    <div className="PowerQualityC7-events">
+      <h2><strong>LV Switchboards</strong></h2>
+      <h3 className="AcademicsC7-event-title">Efficient Power Distribution with Low Voltage Switchboards</h3>
       <p className="AcademicsC7-event-description">
-      Mount Litera Zee School, Bihta, celebrated Republic Day with great fervor and patriotism, honouring the spirit of unity, diversity, and national pride. The event was marked by a splendid array of performances that captured the essence of India’s rich cultural heritage. Our students mesmerized the audience with a vibrant cultural program, featuring heartfelt songs, energetic dances, and thought-provoking skits that paid tribute to our nation’s journey and the ideals enshrined in our Constitution.
+        Low Voltage (LV) Switchboards are essential electrical components that manage and distribute power safely across various systems in industrial, commercial, and residential settings. They are designed to handle voltages up to 1000V and play a crucial role in ensuring uninterrupted and reliable energy distribution.
       </p>
       <p>
-      The ceremony commenced with the hoisting of the national flag, followed by the National Anthem, which resonated through the school grounds, filling everyone with a deep sense of pride and patriotism. As we reflected on the significance of this day, we remembered the founding principles of justice, equality, and liberty that form the bedrock of our democracy.
+        These switchboards house protective devices, control systems, and monitoring units, allowing for streamlined energy flow while minimizing the risk of overloads, short circuits, and electrical faults. Their modular design ensures easy integration, maintenance, and scalability for future needs.
       </p>
       <p>
-      Our Director and Principal delivered inspiring speeches, urging students to embrace the values of integrity, unity, and responsibility as they play their part in shaping the future of our nation. They emphasized the importance of nurturing the vision of a progressive India, where every citizen’s rights are respected, and freedom is cherished
+        LV Switchboards are commonly used in places like data centers, factories, commercial buildings, and infrastructure projects. With smart metering and remote monitoring capabilities, they offer both safety and efficiency in power management.
       </p>
       <p>
-      As we commemorate Republic Day, let us all reaffirm our commitment to upholding the legacy of our founding fathers, striving for a harmonious and prosperous future, and working together to strengthen the fabric of our great nation.
+        Modern switchboards also comply with international safety and energy standards, providing enhanced protection, better thermal management, and higher operational lifespan. They are a vital part of any reliable electrical infrastructure.
       </p>
+      
+      <div className="PowerQualityC7-image-grid">
+      <div  className='img-text'>  <img src={AcademicC71} alt="Motor Control Centre" className="PowerQualityC7-grid-img" />
+      <p>Motor Control Centre</p></div>
 
-      <div className="AcademicsC7-event-images">
-        <img src={AcademicC71} loading="lazy"  alt="Students performing in rows" className="AcademicsC7-event-img" />
-      </div>
-      <div  className='AcademicsC7-lower-image-C7'>
-      <img src={AcademicC72} loading="lazy"  alt="Group performance by students" className="AcademicsC7-event-img-lower  AcademicsC7-small-img-C7" />
-      <img src={AcademicC73} loading="lazy"  alt="Students in NCC uniforms" className="AcademicsC7-event-img-lower  AcademicsC7-large-img-C7" />
+
+   <div  className='img-text'>
+   <img src={AcademicC72} alt="Image 2" className="PowerQualityC7-grid-img" />
+   <p>Power Control Centre</p>
+   </div>
+<div  className='img-text'>
+<img src={AcademicC73} alt="
+APFC Panels" className="PowerQualityC7-grid-img" />
+<p>APFC Panels</p>
+</div>
+   <div  className='img-text'>
+   <img src={AcademicC74} alt="Mains / DG Synchronizing" className="PowerQualityC7-grid-img" />
+   <p>Mains / DG Synchronizing</p>
+   </div>
+
+
+
+   <div  className='img-text'>
+   <img src={AcademicC75} alt="Elsteel Techno Module" className="PowerQualityC7-grid-img" />
+   <p>Elsteel Techno Module</p>
+   </div>
+
+
+
+   <div  className='img-text'>
+   <img src={AcademicC76} alt="ABB ArTu K LV Switchboards" className="PowerQualityC7-grid-img" />
+   <p>ABB ArTu K LV Switchboards</p>
+   </div>
+
+
+   
+   <div  className='img-text'>
+   <img src={AcademicC77} alt="Mobile Distribution" className="PowerQualityC7-grid-img" />
+   <p>Mobile Distribution</p>
+   </div>
       </div>
     </div>
   );
 };
 
-export default AcademicsC7;
+export default PowerQualityC2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

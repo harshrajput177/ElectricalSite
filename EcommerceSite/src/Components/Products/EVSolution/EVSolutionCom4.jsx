@@ -1,42 +1,36 @@
-import React, { useEffect } from "react";
-import  Vision  from '../../../image/images (1).jpeg';
+import React from "react";
+import Vision from '../../../image/images (1).jpeg';
 import '../../../style/EvSolution-css/EvSolutionCom4.css';
 
-function AboutC4(){
-
-    return(
-   <div  className="bc-contents">
+function AboutC4() {
+  return (
+    <div className="bc-contents">
       <div id='Vision-section' className="bc-con">
         <div className="sc-con">
-        <h1  className="text-C4-h1">
-        DC EV Charger
-        </h1>
-        <p>
-        Mount Litera Zee School, Bihta offers a comprehensive and unique 
-        educational experience, meticulously designed to prepare your child for a successful future
-         in today’s rapidly changing world. Our vision is to establish an institution of excellence, 
-        where timeless human values are seamlessly integrated with the highest quality of teaching and learning.
-        By leveraging modern, technology-driven tools, we strive to nurture a well-rounded individual,
-        ready to contribute meaningfully to society. 
-        </p>
+          <h1 className="text-C4-h1">
+            DC EV Charger
+          </h1>
+          <p>
+            The DC EV Charger is a high-speed charging solution engineered for rapid electric vehicle charging. 
+            Ideal for commercial and public infrastructure, this charger supports fast-charging protocols such as 
+            CCS and CHAdeMO, allowing EVs to reach up to 80% battery capacity within a short time. Its intelligent 
+            design ensures maximum efficiency, safety, and reliability for every charge.
+          </p>
         </div>
         <div className="Vision-image">
-          <img src={Vision} alt="Business Illustration" />
+          <img src={Vision} alt="DC EV Charger" />
         </div>
       </div>
-     <div className="bottom-paragrapgh-div">
-     <p className="bottom-paragraph">
-     Furthermore, we are dedicated to shaping global minds on Indian soil,
-          providing every student access to world-class infrastructure and an
-          innovative curriculum that fosters all-round development. This approach
-          ensures that while our students are equipped to face the global
-          challenges of tomorrow, they remain deeply rooted in the rich
-          traditions and values that form the foundation of our culture
-      </p>
-     </div>
-   </div>
-    )
-    
+      <div className="bottom-paragrapgh-div">
+        <p className="bottom-paragraph">
+          Equipped with advanced thermal management, real-time monitoring, and remote diagnostics, the DC EV Charger 
+          is built to handle the demands of modern electric mobility. Whether installed at charging stations, 
+          highways, or commercial hubs, it provides a seamless and future-proof charging experience for 
+          next-generation electric vehicles.
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default AboutC4;

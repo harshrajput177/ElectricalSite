@@ -1,64 +1,65 @@
 
 
-.AcademicsC7-events {
+.PlugC7-events {
   scroll-margin-top: 160px;
   width: 84%;
   margin: auto;
   padding: 2vw;
-    font-family: 'PoppinsExtraBold';
+    
     line-height: 1.6;
   }
+
+  .PlugC7-events h2{
+    font-size: 1.8rem;
+  }
   
-  .AcademicsC7-event-title {
-    font-family: 'PoppinsBold';
+  .PlugC7-event-title{
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #2C318F;
     margin: 15px 0;
   }
   
-  .AcademicsC7-events p{
-    font-family: 'PoppinsMedium';
-    font-size: 0.9rem;
+  .PlugC7-events p{
+    font-size: 1rem;
     text-align: justify;
     line-height: 2;
   }
-  .AcademicsC7-event-description {
-    font-size: 0.9rem;
+  .PlugC7-event-description {
+    font-size: 1rem;
     color: #1c1c1c;
     text-align: justify;
   }
   
-  .AcademicsC7-event-images {
+  .PlugC7-event-images {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
-  .AcademicsC7-event-img {
+  .PlugC7-event-img {
     width: 100%; /* Three images ek row mein */
-    height: 340px;
+    height: 440px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     object-fit: cover;
   }
 
-  .AcademicsC7-event-img-lower {
+  .PlugC7-event-img-lower {
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  .AcademicsC7-small-img-C7{
+  .PlugC7-small-img-C7{
     width: 32%;
     height: 280px;
   }
-  .AcademicsC7-large-img-C7{
+  .PlugC7-large-img-C7{
     width: 67%;
     height: 280px;
   }
-  .AcademicsC7-lower-image-C7{
+  .PlugC7-lower-image-C7{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -67,35 +68,35 @@
 
 
   @media (max-width: 768px) {
-  .AcademicsC7-events {
+  .PlugC7-events {
     padding: 10px;
     }
 
-  .AcademicsC7-event-title {
+  .PlugC7-event-title {
     font-size: 18px;
   }
   
-  .AcademicsC7-event-description {
+  .PlugC7-event-description {
     font-size: 14px;
   }
   
-  .AcademicsC7-event-img {
+  .PlugC7-event-img {
     height: auto;
   }
   
-  .AcademicsC7-lower-image-C7 {
+  .PlugC7-lower-image-C7 {
     flex-direction: column;
     gap: 10px;
   }
   
-  .AcademicsC7-small-img-C7, .AcademicsC7-large-img-C7 {
+  .PlugC7-small-img-C7, .PlugC7-large-img-C7 {
     width: 100%;
     height: auto;
   }
 }
 
 @media (max-width: 480px) {
-  .AcademicsC7-event-title {
+  .PlugC7-event-title {
   font-size: 16px;
   }
 }

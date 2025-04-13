@@ -5,12 +5,11 @@
   width: 84%;
   margin: auto;
   padding: 2vw;
-    font-family: 'PoppinsExtraBold';
+    
     line-height: 1.6;
   }
   
-  .AcademicsC7-event-title {
-    font-family: 'PoppinsBold';
+  .AcademicsC7-event-title{
     text-align: left;
     font-size: 1.2rem;
     color: #2C318F;
@@ -18,7 +17,6 @@
   }
   
   .AcademicsC7-events p{
-    font-family: 'PoppinsMedium';
     font-size: 0.9rem;
     text-align: justify;
     line-height: 2;
