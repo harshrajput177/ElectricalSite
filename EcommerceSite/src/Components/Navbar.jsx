@@ -137,7 +137,7 @@ const Navbar = () => {
                 <li><Link to="/ac-ev-charger" onClick={closeMobileMenu}>AC EV Charger</Link></li>
                 <li><Link to="/dc-ev-charger" onClick={closeMobileMenu}>DC EV Charger</Link></li>
                 <li><Link to="/adc-combo-charger" onClick={closeMobileMenu}>ADC Combination Charger</Link></li>
-                <li>INDUSTRIAL PLUG & SOCKETS</li>
+                <li><strong>INDUSTRIAL PLUG & SOCKETS</strong></li>
                 <li><Link to="/surface-mounting" onClick={closeMobileMenu}>Surface Mounting</Link></li>
 <li><Link to="/panel-mounting" onClick={closeMobileMenu}>Panel Mounting</Link></li>
 <li><Link to="/plugs" onClick={closeMobileMenu}>Plugs</Link></li>
