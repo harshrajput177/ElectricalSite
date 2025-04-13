@@ -8,6 +8,7 @@ import Comp5 from "../../Components/LandingPage/LandingCom5";
 import Comp6 from "../../Components/LandingPage/LandingCom6";
 import Comp7 from "../../Components/LandingPage/LandingCom7";
 import Comp8 from "../../Components/LandingPage/LandingCom8";
+import Comp9 from "../../Components/LandingPage/LandingCom9";
 import { useNavigate } from "react-router-dom";
 // import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
@@ -41,6 +42,11 @@ const  navigate =  useNavigate();
 
         <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <Comp4 />
+        </motion.div>
+
+
+        <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
+          <Comp9 />
         </motion.div>
 
         <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>

@@ -1,48 +1,48 @@
 import React from "react";
 import "../../style/Landing-css/LandingCom4.css";
-import img1 from '../../image/mennekes-plug-250x250.webp'
-import img2 from '../../image/modbox-modular-distribution-system-ip-65-500x500.webp'
-import img3 from '../../image/pdu-csd242410-spl-face_2000x2000__00211.jpg'
-import img4 from '../../image/300Wx300H-null (1).png'
-import img5 from '../../image/pcc-1.jpg'
-import img6 from '../../image/APFC.png'
-import img7 from '../../image/dg-panel.png'
-import img8 from '../../image/elsteel.png'
+import img1 from '../../image/capictor.jpg'
+import img2 from '../../image/powerfactormeter.webp'
+import img3 from '../../image/harmonic-reactor-500x500.webp'
+import img4 from '../../image/thyristor.jpg'
+import img5 from '../../image/Active-Harmonic-Filters.png'
+import img6 from '../../image/Untitled-design-25.jpg'
+import img7 from '../../image/Untitled-design-26-1.jpg'
+import img8 from '../../image/Hybrid-Filters.png'
 
 
 
 
 const products = [
   {
-    name: "Industrial Plug & Sockets",
+    name: "Capacitors",
     image:img1 , 
   },
   {
-    name: "VariaBox",
+    name: "Powers Factor Controller",
     image: img2, 
   },
   {
-    name: "Junction Boxes",
+    name: "Harmonic Block Reactors",
     image: img3, 
   },
   {
-    name: "Mobile Distribution Board",
+    name: "Thyristor Switching Module",
     image: img4, 
   },
   {
-    name: "Power Control Centre",
+    name: "Active Harmonic Filters",
     image:img5 , 
   },
   {
-    name: "APFC Panels",
+    name: "Passive Harmonic Filters",
     image: img6, 
   },
   {
-    name: "Mains/DG Panels",
+    name: "Detuned PF Compensato",
     image: img7, 
   },
   {
-    name: "Elsteel Techno Module",
+    name: "Hybrid PQ Solutions",
     image: img8, 
   },
 ];
@@ -50,7 +50,7 @@ const products = [
 const PowerDistribution = () => {
   return (
     <div className="PowerDistribution-container">
-      <h2 className="PowerDistribution-heading">Power Distribution Management</h2>
+      <h2 className="PowerDistribution-heading">Power Quality Management</h2>
       <div className="PowerDistribution-underline"></div>
       <div className="PowerDistribution-grid-container">
         {products.map((product, index) => (
@@ -68,5 +68,3 @@ const PowerDistribution = () => {
 };
 
 export default PowerDistribution;
-
-

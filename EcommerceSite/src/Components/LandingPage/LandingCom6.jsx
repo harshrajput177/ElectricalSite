@@ -1,15 +1,9 @@
 import React from "react";
 import "../../style/Landing-css/LandingCom6.css";
-import img1 from '../../image/mennekes-plug-250x250.webp'
-import img2 from '../../image/modbox-modular-distribution-system-ip-65-500x500.webp'
-import img3 from '../../image/pdu-csd242410-spl-face_2000x2000__00211.jpg'
-import img4 from '../../image/300Wx300H-null (1).png'
-// import img1 from '../../image/'
-// import img1 from '../../image/'
-// import img1 from '../../image/'
-// import img1 from '../../image/'
-// import img1 from '../../image/'
-// import img1 from '../../image/'
+import img1 from '../../image/boombarier.jpg'
+import img2 from '../../image/gate_with_id_scanning_system.webp'
+import img3 from '../../image/Rod.jpeg'
+import img4 from '../../image/Parking.jpg'
 
 
 
