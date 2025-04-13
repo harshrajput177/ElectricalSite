@@ -8,35 +8,35 @@ const WhyChooseUs = () => {
       <div className="LandingCom5-content">
         <div className="LandingCom5-Paragrapgh">
           <p className="LandingCom5-description">
-            With years of experience in the legal field, we specialize in handling complex litigation cases with precision, dedication, and a client-first approach.
+            With years of experience in the electrical industry, we provide top-notch electrical products along with professional installation services to ensure safety and efficiency in every home.
           </p>
           <p className="LandingCom5-highlight">
-            Our expertise lies in <strong>strategic legal solutions, unwavering commitment to justice, and personalized advocacy</strong>, ensuring the best possible outcomes for every case.
+            Our strengths lie in <strong>premium-quality products, reliable doorstep service, and expert installation support</strong>, making us your trusted partner for all electrical needs.
           </p>
         </div>
         <div className="LandingCom5-All-ul"> 
           <ul className="LandingCom5-list">
-            <li>✅ Extensive experience in litigation, corporate, and family law matters.</li>
-            <li>✅ Transparent communication and customized legal strategies for every client.</li>
-            <li>✅ A proven record of success in high-stakes legal cases.</li>
+            <li>✅ Wide range of high-quality electrical products including sockets, switches, and wiring accessories.</li>
+            <li>✅ Doorstep delivery and professional installation service by trained technicians.</li>
+            <li>✅ Commitment to safety, durability, and customer satisfaction in every project.</li>
           </ul>
         </div>
       </div>
       <div className="LandingCom5-cards">
         <div className="LandingCom5-card">
-          <span className="LandingCom5-icon">⚖️</span>
-          <h3>Comprehensive Legal Expertise</h3>
-          <p>Proficient in handling civil, criminal, corporate, and family law cases with meticulous legal strategies.</p>
+          <span className="LandingCom5-icon">💡</span>
+          <h3>Premium Electrical Products</h3>
+          <p>We offer a wide range of durable and safe electrical products designed to meet modern household and industrial needs.</p>
         </div>
         <div className="LandingCom5-card">
-          <span className="LandingCom5-icon">🏆</span>
-          <h3>Proven Track Record</h3>
-          <p>Successfully represented numerous clients, ensuring justice through strong legal arguments and thorough case preparation.</p>
+          <span className="LandingCom5-icon">🚚</span>
+          <h3>Doorstep Delivery & Installation</h3>
+          <p>From product delivery to complete installation, our team ensures a smooth, hassle-free experience at your convenience.</p>
         </div>
         <div className="LandingCom5-card">
-          <span className="LandingCom5-icon">🤝</span>
-          <h3>Client-Centric Approach</h3>
-          <p>Dedicated to providing personalized legal support, ensuring clarity, fairness, and a strong defense for every client.</p>
+          <span className="LandingCom5-icon">🔧</span>
+          <h3>Expert Technical Support</h3>
+          <p>Our experienced technicians provide safe, fast, and reliable installation services for every electrical setup.</p>
         </div>
       </div>
     </div>
