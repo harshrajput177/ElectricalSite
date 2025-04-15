@@ -14,7 +14,7 @@ import WestOutlinedIcon from '@mui/icons-material/WestOutlined';
 import EastOutlinedIcon from '@mui/icons-material/EastOutlined';
 
 const categories = [
-  { name: "Laptop", image: image1 },
+  { name: "CCTV Camera", image: image1 },
   { name: "Phone", image: image2 },
   { name: "Watch", image: image3 },
   { name: "Camera", image: image4 },
@@ -22,8 +22,8 @@ const categories = [
   { name: "Video Game", image: image6 },
   { name: "Camera", image: image7 },
   { name: "Headphone", image: image8 },
-  { name: "Video Game", image: image9 },
-  { name: "Video Game", image: image10 },
+  { name: "AC EV Charger", image: image9 },
+  { name: "Volt", image: image10 },
 ];
 
 export default function CategorySlider() {

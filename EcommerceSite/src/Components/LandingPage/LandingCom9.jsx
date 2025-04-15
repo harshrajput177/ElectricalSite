@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/Landing-css/LandingCom4.css";
-import img1 from '../../image/capictor.jpg'
+import img1 from '../../image/Screenshot 2025-04-15 114222.png'
 import img2 from '../../image/powerfactormeter.webp'
 import img3 from '../../image/harmonic-reactor-500x500.webp'
 import img4 from '../../image/thyristor.jpg'
